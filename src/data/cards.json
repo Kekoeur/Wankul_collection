@@ -1,0 +1,2906 @@
+﻿{
+    "1" : {
+        "name": "Navire Pirate",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "2" : {
+        "name": "Portal",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "3" : {
+        "name": "Quantum",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "4" : {
+        "name": "Rocket Field",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "5" : {
+        "name": "Rust",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "6" : {
+        "name": "Il fait pas chaud",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "7" : {
+        "name": "Golf",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "8" : {
+        "name": "Dust 2",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "9" : {
+        "name": "Space Factory",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "10" : {
+        "name": "La F.A.Q",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "11" : {
+        "name": "Musée",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "12" : {
+        "name": "FNAF",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "13" : {
+        "name": "Village",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "14" : {
+        "name": "La Ferme",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "15" : {
+        "name": "Socisseau Factory",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "16" : {
+        "name": "Trou du Monde",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "17" : {
+        "name": "Moria",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "18" : {
+        "name": "Tchernobyl",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "19" : {
+        "name": "Valheim",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "20" : {
+        "name": "Tranchées",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "21" : {
+        "name": "Ravenholm",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "22" : {
+        "name": "Urbex",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "23" : {
+        "name": "Manoir",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "24" : {
+        "name": "Barrage",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "25" : {
+        "name": "Chernogorsk",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "26" : {
+        "name": "Agrou",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "27" : {
+        "name": "Garage",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "28" : {
+        "name": "Uretus",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "29" : {
+        "name": "Wankil Show",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "30" : {
+        "name": "Convention",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terrain",
+        "drop": "T",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "31" : {
+        "name": "Garagiste",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "32" : {
+        "name": "Garagiste",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "33" : {
+        "name": "Camionneur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "34" : {
+        "name": "Camionneur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "35" : {
+        "name": "Vendeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "36" : {
+        "name": "Vendeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "37" : {
+        "name": "Annabelle",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "38" : {
+        "name": "Grudge",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "39" : {
+        "name": "Astronaute",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "40" : {
+        "name": "Astronaute",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "41" : {
+        "name": "Boxeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "42" : {
+        "name": "Boxeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "43" : {
+        "name": "Infecté",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "44" : {
+        "name": "Infecté",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "45" : {
+        "name": "Fermier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "46" : {
+        "name": "Fermier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "47" : {
+        "name": "Chien",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "48" : {
+        "name": "Cochon",
+        "set": "Origins",
+        "image": {
+            "src": "cochon.webp"
+        },
+        "artist": "Jaycee",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 2,
+        "desc": "Gruik, gruik !",
+        "action": {
+            "basic": ["Si vous avez un Score ce tour, votre adversaire applique 2 fois son effet Perdant"]
+        },
+        "left": 0,
+        "right": 1
+    },
+    "49" : {
+        "name": "Fromager",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "50" : {
+        "name": "Charcutier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "51" : {
+        "name": "Businessman",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "52" : {
+        "name": "Débile",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "53" : {
+        "name": "Débile",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "54" : {
+        "name": "Paysan",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "55" : {
+        "name": "Paysan",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "56" : {
+        "name": "Cuisinier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "57" : {
+        "name": "Cuisinier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "58" : {
+        "name": "Bébé",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "59" : {
+        "name": "Bébé",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "60" : {
+        "name": "Chasseur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "61" : {
+        "name": "Pilote d’avion",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "62" : {
+        "name": "Agrou",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "63" : {
+        "name": "Agrou",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "64" : {
+        "name": "Chevalier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "65" : {
+        "name": "Chevalier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "66" : {
+        "name": "Peintre",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "67" : {
+        "name": "Peintre",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "68" : {
+        "name": "Pompier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "69" : {
+        "name": "Pompier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "70" : {
+        "name": "Sorcier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "71" : {
+        "name": "Sorcier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "72" : {
+        "name": "Sdf",
+        "set": "Origins",
+        "image": {
+            "src": "sdf-l.webp"
+        },
+        "artist": "Lhotus",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 2,
+        "desc": "Surnommé \"L'Architecte\", il aurait construit un 15m² intégralement en carton.",
+        "action": {
+            "continu": "Si c'est votre seul Personnage sur ce Terrain, il a +5 en Force.",
+            "combo": "Reprennez en main la carte du dessus de votre défausse."
+        },
+        "left": 2,
+        "right": 0
+    },
+    "73" : {
+        "name": "Sdf",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "74" : {
+        "name": "Touriste",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "75" : {
+        "name": "Touriste",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "76" : {
+        "name": "Employé WcDo",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "77" : {
+        "name": "Employé WcDo",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "78" : {
+        "name": "Mort-vivant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "79" : {
+        "name": "Mort-vivant",
+        "set": "Origins",
+        "image": {
+            "src": "mort-vivant-t.webp"
+        },
+        "artist": "O Redge",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 1,
+        "power": 5,
+        "desc": "Il garde le trésor enfoui de la caverne Longmur depuis plus de 300 ans. Il a avoué s'ennuyer un peu",
+        "action": {
+            "basic": ["Défaussez ce personnage à la fin de votre tour."],
+            "combo": "Scorez un Terrain"
+        },
+        "left": 2,
+        "right": 0
+    },
+    "80" : {
+        "name": "Soldat Romain",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "C",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "81" : {
+        "name": "Spiderlaink",
+        "set": "Origins",
+        "image": {
+            "src": "spiderlaink.webp"
+        },
+        "artist": "Léonard Lam",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 2,
+        "desc": "La race d'araignées était super bof. Du coup il fait 50kg, ne sait pas se battre et livre des pizzas.",
+        "action": {
+            "basic": ["Votre adversaire défausse la carte du dessus de son deck."]
+        },
+        "left": 0,
+        "right": 3
+    },
+    "82" : {
+        "name": "Thorracid",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "83" : {
+        "name": "CT",
+        "set": "Origins",
+        "image": {
+            "src": "ct.webp"
+        },
+        "artist": "Léonard Lam",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 2,
+        "power": 4,
+        "desc": "Soldat d'élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
+        "action": {
+            "basic" : ["Pioche une carte"]
+        },
+        "left": 0,
+        "right": 1
+    },
+    "84" : {
+        "name": "Terro",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "85" : {
+        "name": "Clown Tueur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "86" : {
+        "name": "Joueur du grenier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "87" : {
+        "name": "Seb",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "88" : {
+        "name": "Amixem",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "89" : {
+        "name": "Pirate",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "90" : {
+        "name": "Pirate",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "91" : {
+        "name": "Semi-Homme",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "92" : {
+        "name": "Semi-Homme",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "93" : {
+        "name": "Marthie",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "94" : {
+        "name": "Doc",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "95" : {
+        "name": "Vieille",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "96" : {
+        "name": "Vieille",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "97" : {
+        "name": "Fanboy",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "98" : {
+        "name": "Fangirl",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "99" : {
+        "name": "Gotaga",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "100" : {
+        "name": "Billy le bonhomme de neige",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Random",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "101" : {
+        "name": "Gremlin",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "102" : {
+        "name": "Steve",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "103" : {
+        "name": "Steve",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "104" : {
+        "name": "Apprentie sorcière",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "105" : {
+        "name": "Elfe",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "106" : {
+        "name": "Sel",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "107" : {
+        "name": "Sel",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "108" : {
+        "name": "Mastu",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "109" : {
+        "name": "Deotoons",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "110" : {
+        "name": "Cowboy",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "111" : {
+        "name": "Cowboy",
+        "set": "Origins",
+        "image": {
+            "src": "cowboy-t.webp"
+        },
+        "artist": "Benjamin Giletti",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 1,
+        "power": 3,
+        "desc": "Il a gagné son duel contre McNuggets. En même temps, c'était pas compliqué, McNuggets était aveugle.",
+        "action": {
+            "basic": ["Défausse la Première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont plus en Force."]
+        },
+        "left": 0,
+        "right": 2
+    },
+    "112" : {
+        "name": "Policier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "113" : {
+        "name": "Policier",
+        "set": "Origins",
+        "image": {
+            "src": "policier-t.webp"
+        },
+        "artist": "Benjamin Giletti",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Mon bon monsieur, votre femme qui accouche c'est pas mon problème. Ici, c'est une place réservée.\"",
+        "action": {
+            "continu": "Défausse ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
+            "combo": "Si vous avez un  Policier dans votre défausse, posez-le au-dessus de votre deck."
+        },
+        "left": 2,
+        "right": 0
+    },
+    "114" : {
+        "name": "Obèse",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "115" : {
+        "name": "Singe",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "116" : {
+        "name": "Enquêteur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "117" : {
+        "name": "Potatoz",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "118" : {
+        "name": "Jiraya",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "119" : {
+        "name": "Feldup",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "120" : {
+        "name": "Bretonne bigoudene",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "121" : {
+        "name": "Roi",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "122" : {
+        "name": "Hugo Délire",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "123" : {
+        "name": "Xari",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "124" : {
+        "name": "Princesse",
+        "set": "Origins",
+        "image": {
+            "src": "princesse-l.webp"
+        },
+        "artist": "Lhotus",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 1,
+        "desc": "\"Si vous trouvez que mes cheveux sont très longs alors attendez de voir en dessous.\"",
+        "action": {
+            "continu": "Les Personnages doivent être posés sur le même Terrain que celui de ce Personnage."
+        },
+        "left": 0,
+        "right": 1
+    },
+    "125" : {
+        "name": "Princesse",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "126" : {
+        "name": "Prostitué",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "127" : {
+        "name": "Fée",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "128" : {
+        "name": "G cramé",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Random",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "129" : {
+        "name": "Superconeri",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "130" : {
+        "name": "Moine",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UC",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "131" : {
+        "name": "CyberLaink",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "132" : {
+        "name": "CyberTerra",
+        "set": "Origins",
+        "image": {
+            "src": "cyberterra.webp"
+        },
+        "artist": "Léonard Lam",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 1,
+        "power": 3,
+        "desc": "\"Moi ? Le cybersexe ? N'importe quoi, trop nul le cybersexe, je vais jamais au cybersexe, moi.\"",
+        "action": {
+            "basic": ["Défaussez un personnage adverse en jeu d'une Force de 2 maximum"],
+            "combo": "Votre adversaire défausse la carte du dessus de son deck."
+        },
+        "left": 1,
+        "right": 0
+    },
+    "133" : {
+        "name": "Jacques Flantier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "134" : {
+        "name": "Richard Flantier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "135" : {
+        "name": "Dresseur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "136" : {
+        "name": "Dresseuse",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "137" : {
+        "name": "Survivant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "138" : {
+        "name": "Survivant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "139" : {
+        "name": "Wicromania",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "140" : {
+        "name": "Voyant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "141" : {
+        "name": "Pierre Rondin",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "142" : {
+        "name": "André Rondin",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "143" : {
+        "name": "Professeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "144" : {
+        "name": "Professeur",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "145" : {
+        "name": "Samouraï",
+        "set": "Origins",
+        "image": {
+            "src": "samourai.webp"
+        },
+        "artist": "Lhotus",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 1,
+        "power": 4,
+        "desc": "Il a raté son harakiri. Maintenant, il a une sonde urinaire et nettoie les murs du temple",
+        "action": {
+            "continu": "Doublez la Force de tous vos Personnages sur le même Terrain que ce Personnage."
+        },
+        "left": 0,
+        "right": 0
+    },
+    "146" : {
+        "name": "Sage Japonais",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "147" : {
+        "name": "Jeanine",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "148" : {
+        "name": "Martine",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "149" : {
+        "name": "Laink",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "150" : {
+        "name": "Terracid",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "R",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "151" : {
+        "name": "Cowboy",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "152" : {
+        "name": "Cowboy",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "153" : {
+        "name": "Policier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "154" : {
+        "name": "Policier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "155" : {
+        "name": "Sel",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "156" : {
+        "name": "Sel",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "157" : {
+        "name": "Fromager",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "158" : {
+        "name": "Charcutier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "159" : {
+        "name": "Gotaga",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "160" : {
+        "name": "Amixem",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "161" : {
+        "name": "Pirate",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "162" : {
+        "name": "Pirate",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "163" : {
+        "name": "Mastu",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "164" : {
+        "name": "G cramé",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Random",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "165" : {
+        "name": "CT",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "166" : {
+        "name": "Terro",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "167" : {
+        "name": "Joueur du grenier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "168" : {
+        "name": "Seb",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Guest",
+        "drop": "UR",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "169" : {
+        "name": "Wicromania",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "170" : {
+        "name": "Voyant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "171" : {
+        "name": "Pierre Rondin",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "172" : {
+        "name": "André Rondin",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "173" : {
+        "name": "Survivant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "174" : {
+        "name": "Survivant",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "175" : {
+        "name": "Jacques Flantier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "176" : {
+        "name": "Richard Flantier",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "177" : {
+        "name": "Jeanine",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "178" : {
+        "name": "Martine",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "179" : {
+        "name": "Laink",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Laink",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    },
+    "180" : {
+        "name": "Terracid",
+        "set": "Origins",
+        "image": {
+            "src": ""
+        },
+        "artist": "",
+        "cat": "Terracid",
+        "drop": "L",
+        "cost": 0,
+        "power": 0,
+        "desc": "",
+        "action": "",
+        "left": 0,
+        "right": 0
+    }
+}
