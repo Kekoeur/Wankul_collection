@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wankul_collection/static/css/main.3194d1d4.css",
+    "main.js": "/Wankul_collection/static/js/main.fbd1abaa.js",
+    "static/js/787.0d5241b0.chunk.js": "/Wankul_collection/static/js/787.0d5241b0.chunk.js",
+    "index.html": "/Wankul_collection/index.html",
+    "main.3194d1d4.css.map": "/Wankul_collection/static/css/main.3194d1d4.css.map",
+    "main.fbd1abaa.js.map": "/Wankul_collection/static/js/main.fbd1abaa.js.map",
+    "787.0d5241b0.chunk.js.map": "/Wankul_collection/static/js/787.0d5241b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3194d1d4.css",
+    "static/js/main.fbd1abaa.js"
+  ]
+}
