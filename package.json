@@ -2,6 +2,7 @@
   "name": "wankul_coll",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Kekoeur.github.io/Wankul_collection",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,6 +20,8 @@
     "start": "concurrently \"npm run react\" \"npm run server\"",
     "react": "react-scripts start",
     "server": "node src/backend/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "gh-pages": "^5.0.0"
   }
 }

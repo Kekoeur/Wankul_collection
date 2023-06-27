@@ -58,7 +58,7 @@ const Collection = ({ data }) => {
         const quantity = composition[cardId] || 0;
         return (
           <div key={cardId}>
-            <CardImg card_info={cardInfo} id={cardId} />
+            <a href={"/Card/"+cardId}><CardImg card_info={cardInfo} id={cardId} /></a>
             { id && <fieldset data-quantity>
               <legend>Change quantity</legend>
               <QuantityInput
