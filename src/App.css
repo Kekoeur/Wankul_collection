@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(../public/fondbleu.png);
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+}
+
+.headerImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.userBtn {
+  float: right;
+  margin-right: 10px;
+}
+
+.userBtn *{
+  height: 35px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hamburger {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hamburger .line {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: currentColor;
+  margin-block: 6px;
+  border-radius: 4px;
+  transition: transform .5s, opacity .25s;
+  color: white;
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: translateY(13px) rotate(45deg);
+}
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: translateY(-13px) rotate(-45deg);
 }

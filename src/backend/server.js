@@ -101,10 +101,7 @@ app.get('/api/collections/:collectionId', (req, res) => {
 
 app.put('/api/collections/:collectionId', (req, res) => {
   const collectionId = req.params.collectionId;
-  console.log(req.body)
   const newComposition = req.body.newComposition;
-  console.log(collectionId)
-  console.log(newComposition)
 
   const query = 'UPDATE collection SET composition = ? WHERE collection_id = ?';
   const values = [newComposition, collectionId];
@@ -119,8 +116,59 @@ app.put('/api/collections/:collectionId', (req, res) => {
   });
 });
 
+app.post('/api/users', (req, res) => {
+  const { username, password, email } = req.body;
+
+  const query = 'INSERT INTO users (username, password, email) VALUES (?, ?, ?)';
+  const values = [username, password, email];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la création de l\'utilisateur', error);
+      res.status(500).json({ error: 'Erreur lors de la création de l\'utilisateur' });
+    } else {
+      res.json({ success: true });
+    }
+  });
+});
+
+// Endpoint pour récupérer les données de la table "users" d'un utilisateur
+app.get('/api/users/name/:username', (req, res) => {
+  const username = req.params.username;
+
+  const query = 'SELECT * FROM users WHERE username = ?';
+  const values = [username];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la récupération de l\'utilisateur depuis la base de données avec le nom d\'utilisateur', error);
+      res.status(500).json({ error: 'Erreur lors de la récupération de l\'utilisateur depuis la base de données avec le nom d\'utilisateur' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+// Endpoint pour récupérer les données de la table "users" d'un email utilisateur
+app.get('/api/users/email/:email', (req, res) => {
+  const email = req.params.email;
+
+  const query = 'SELECT * FROM users WHERE email = ?';
+  const values = [email];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la récupération de l\'utilisateur depuis la base de données avec l\'email', error);
+      res.status(500).json({ error: 'Erreur lors de la récupération de l\'utilisateur depuis la base de données avec l\'email' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
 
 // Démarrer le serveur
 app.listen(8000, () => {
   console.log('API backend en cours d\'écoute sur le port 8000');
 });
+
