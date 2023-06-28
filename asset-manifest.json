@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Wankul_collection/static/css/main.3194d1d4.css",
-    "main.js": "/Wankul_collection/static/js/main.6fed4ed6.js",
+    "main.css": "/Wankul_collection/static/css/main.c94402a6.css",
+    "main.js": "/Wankul_collection/static/js/main.72384242.js",
     "static/js/787.0d5241b0.chunk.js": "/Wankul_collection/static/js/787.0d5241b0.chunk.js",
+    "static/media/fondbleu.png": "/Wankul_collection/static/media/fondbleu.ff7cf1d610c7d7e18947.png",
     "index.html": "/Wankul_collection/index.html",
-    "main.3194d1d4.css.map": "/Wankul_collection/static/css/main.3194d1d4.css.map",
-    "main.6fed4ed6.js.map": "/Wankul_collection/static/js/main.6fed4ed6.js.map",
+    "main.c94402a6.css.map": "/Wankul_collection/static/css/main.c94402a6.css.map",
+    "main.72384242.js.map": "/Wankul_collection/static/js/main.72384242.js.map",
     "787.0d5241b0.chunk.js.map": "/Wankul_collection/static/js/787.0d5241b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3194d1d4.css",
-    "static/js/main.6fed4ed6.js"
+    "static/css/main.c94402a6.css",
+    "static/js/main.72384242.js"
   ]
 }
