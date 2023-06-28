@@ -1,0 +1,59 @@
+.card_img img{
+    height: 80vh;
+}
+
+.card_img {
+    display: inline-block;
+    line-height: 0;
+}
+
+.card {
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid black;
+    background-color: white;
+}
+
+.card_info {
+    .name {
+        grid-area: name;
+    }
+    .desc {
+        grid-area: desc;
+    }
+    .actions {
+        grid-area: actions;
+    }
+    .power {
+        grid-area: power;
+    }
+    .cost {
+        grid-area: cost;
+    }
+    .artist {
+        grid-area: artist;
+    }
+    .set {
+        grid-area: set;
+    }
+    .cat {
+        grid-area: cat;
+    }
+    .drop {
+        grid-area: drop;
+    }
+    .id {
+        grid-area: id;
+    }
+}
+
+.card_info {
+    display: grid;
+    grid-template-areas: 
+    "cost id      name    name power"
+    ".    actions actions action   ."
+    ".    desc    desc    desc     ."
+    ".    artist  artist  artist   ."
+    ".    set     cat     drop     .";
+}

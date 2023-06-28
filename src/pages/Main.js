@@ -9,12 +9,12 @@ import SignUp from '../components/User/SignUp';
 
 const Main = props => (
     <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Collection data={data} />} />
         <Route path="/Collection" element={<Collection data={data}/>} />
         <Route path="/Collection/:id" element={<Collection data={data}/>} />
         <Route path="/Card/:id" element={<Card data={data}/>} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Login" element={<Login onLogin={props.onLogin}/>} />
+        <Route path="/SignUp" element={<SignUp onLogin={props.onLogin}/>} />
     </Routes>
 )
 

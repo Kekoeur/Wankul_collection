@@ -57,12 +57,13 @@ export const updateCollectionComposition = async (collectionId, newComposition) 
   }
 };
 
-export const createUser = async (username, password, email) => {
+export const createUser = async (userId, username, password, email) => {
   try {
     const response = await axios.post(`${API_URL}/api/users`, {
+      userId,
       username,
-      password,
       email,
+      password,
     });
     return response.data;
   } catch (error) {

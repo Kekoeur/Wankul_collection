@@ -1,5 +1,6 @@
 const express = require('express');
 const mysql = require('mysql');
+const connection = require('../config/dbconnection');
 
 const app = express();
 
@@ -24,15 +25,6 @@ app.use((req, res, next) => {
   }
 });
 
-
-// Configuration de la connexion à la base de données MySQL
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'Wankul',
-});
-
 // Endpoint pour récupérer les données de la table "deck"
 app.get('/api/decks', (req, res) => {
   const query = 'SELECT * FROM deck';
@@ -49,7 +41,7 @@ app.get('/api/decks', (req, res) => {
 
 // Endpoint pour récupérer les données de la table "users"
 app.get('/api/users', (req, res) => {
-  const query = 'SELECT * FROM users';
+  const query = 'SELECT * FROM user';
 
   connection.query(query, (error, results) => {
     if (error) {
@@ -117,11 +109,12 @@ app.put('/api/collections/:collectionId', (req, res) => {
 });
 
 app.post('/api/users', (req, res) => {
-  const { username, password, email } = req.body;
+  const { userId, username, email, password } = req.body;
 
-  const query = 'INSERT INTO users (username, password, email) VALUES (?, ?, ?)';
-  const values = [username, password, email];
+  const query = 'INSERT INTO user (user_id, username, email, password) VALUES (?, ?, ?, ?)';
+  const values = [userId, username, email, password];
 
+  console.log(values);
   connection.query(query, values, (error, results) => {
     if (error) {
       console.error('Erreur lors de la création de l\'utilisateur', error);
@@ -136,7 +129,7 @@ app.post('/api/users', (req, res) => {
 app.get('/api/users/name/:username', (req, res) => {
   const username = req.params.username;
 
-  const query = 'SELECT * FROM users WHERE username = ?';
+  const query = 'SELECT * FROM user WHERE username = ?';
   const values = [username];
 
   connection.query(query, values, (error, results) => {
@@ -153,7 +146,7 @@ app.get('/api/users/name/:username', (req, res) => {
 app.get('/api/users/email/:email', (req, res) => {
   const email = req.params.email;
 
-  const query = 'SELECT * FROM users WHERE email = ?';
+  const query = 'SELECT * FROM user WHERE email = ?';
   const values = [email];
 
   connection.query(query, values, (error, results) => {

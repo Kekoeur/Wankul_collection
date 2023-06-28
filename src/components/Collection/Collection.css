@@ -1,0 +1,23 @@
+.coll {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.coll_card{
+    height: fit-content;
+}
+
+.coll_card a {
+    height: fit-content;
+}
+
+.card_img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
