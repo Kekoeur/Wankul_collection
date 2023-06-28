@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Wankul_collection/static/css/main.c94402a6.css",
-    "main.js": "/Wankul_collection/static/js/main.72384242.js",
-    "static/js/787.0d5241b0.chunk.js": "/Wankul_collection/static/js/787.0d5241b0.chunk.js",
-    "static/media/fondbleu.png": "/Wankul_collection/static/media/fondbleu.ff7cf1d610c7d7e18947.png",
-    "index.html": "/Wankul_collection/index.html",
-    "main.c94402a6.css.map": "/Wankul_collection/static/css/main.c94402a6.css.map",
-    "main.72384242.js.map": "/Wankul_collection/static/js/main.72384242.js.map",
-    "787.0d5241b0.chunk.js.map": "/Wankul_collection/static/js/787.0d5241b0.chunk.js.map"
+    "main.css": "/static/css/main.9e4c28a5.css",
+    "main.js": "/static/js/main.e4d44b0b.js",
+    "static/js/787.0d5241b0.chunk.js": "/static/js/787.0d5241b0.chunk.js",
+    "static/media/fondbleu.png": "/static/media/fondbleu.ff7cf1d610c7d7e18947.png",
+    "index.html": "/index.html",
+    "main.9e4c28a5.css.map": "/static/css/main.9e4c28a5.css.map",
+    "main.e4d44b0b.js.map": "/static/js/main.e4d44b0b.js.map",
+    "787.0d5241b0.chunk.js.map": "/static/js/787.0d5241b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c94402a6.css",
-    "static/js/main.72384242.js"
+    "static/css/main.9e4c28a5.css",
+    "static/js/main.e4d44b0b.js"
   ]
 }
