@@ -18,7 +18,6 @@ const Collection = ({ data }) => {
     const fetchCollection = async () => {
       try {
         const dbColl = await fetchCollectionsFromWankulDatabase(id);
-        console.log(dbColl)
         setCollection(dbColl);
         if(id) {
           setComposition(JSON.parse(dbColl.composition));
@@ -32,12 +31,10 @@ const Collection = ({ data }) => {
   }, [id]);
 
   const handleCompositionChange = (cardId, newQuantity) => {
-    console.log('ic')
     setComposition((prevComposition) => ({
       ...prevComposition,
       [cardId]: newQuantity,
     }));
-    console.log(composition)
   };
 
   const handleSaveComposition = async () => {

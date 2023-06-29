@@ -73,7 +73,6 @@ app.get('/api/collections/:collectionId', (req, res) => {
   const query = 'SELECT * FROM collection WHERE collection_id = ?';
   const values = [collectionId];
   const formattedQuery = mysql.format(query, values);
-  console.log(formattedQuery);
 
   connection.query(formattedQuery, (error, results) => {
     if (error) {
@@ -114,11 +113,27 @@ app.post('/api/users', (req, res) => {
   const query = 'INSERT INTO user (user_id, username, email, password) VALUES (?, ?, ?, ?)';
   const values = [userId, username, email, password];
 
-  console.log(values);
   connection.query(query, values, (error, results) => {
     if (error) {
       console.error('Erreur lors de la création de l\'utilisateur', error);
       res.status(500).json({ error: 'Erreur lors de la création de l\'utilisateur' });
+    } else {
+      res.json({ success: true });
+    }
+  });
+});
+
+app.post('/api/collection', (req, res) => {
+  const { collectionId, collection_name, user } = req.body;
+  const composition = "{}";
+
+  const query = 'INSERT INTO collection (collection_id, user_id, collection_name, composition) VALUES (?, ?, ?, ?)';
+  const values = [collectionId, user, collection_name, composition];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la création de la collection', error);
+      res.status(500).json({ error: 'Erreur lors de la création de la collection' });
     } else {
       res.json({ success: true });
     }
@@ -153,6 +168,43 @@ app.get('/api/users/email/:email', (req, res) => {
     if (error) {
       console.error('Erreur lors de la récupération de l\'utilisateur depuis la base de données avec l\'email', error);
       res.status(500).json({ error: 'Erreur lors de la récupération de l\'utilisateur depuis la base de données avec l\'email' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+
+// Endpoint pour récupérer les données de la table "collection"
+app.get('/api/collection/name/:collection_name', (req, res) => {
+  const collection_name = req.params.collection_name;
+  const user_id = req.body.userId;
+
+  const query = 'SELECT * FROM collection WHERE collection_name = ? WHERE user_id = ?';
+  const values = [collection_name, user_id];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la récupération de la collection depuis la base de données avec le nom d\'utilisateur', error);
+      res.status(500).json({ error: 'Erreur lors de la récupération de la collection depuis la base de données avec le nom d\'utilisateur' });
+    } else {
+      res.json(results);
+    }
+  });
+});
+
+// Endpoint pour récupérer les données de la table "deck"
+app.get('/api/deck/name/:deck_name', (req, res) => {
+  const collection_name = req.params.deck_name;
+  const user_id = req.body.userId;
+
+  const query = 'SELECT * FROM deck WHERE deck_name = ? WHERE user_id = ?';
+  const values = [deck_name, user_id];
+
+  connection.query(query, values, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la récupération du deck depuis la base de données avec le nom d\'utilisateur', error);
+      res.status(500).json({ error: 'Erreur lors de la récupération du deck depuis la base de données avec le nom d\'utilisateur' });
     } else {
       res.json(results);
     }

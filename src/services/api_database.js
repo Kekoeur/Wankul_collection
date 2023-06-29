@@ -33,7 +33,6 @@ export const fetchCollectionsFromWankulDatabase = async (id = null) => {
     if(id != null) {
       response = await axios.get(`${API_URL}/api/collections/${id}`);
     } else{
-      console.log('ici')
       response = await axios.get(`${API_URL}/api/collections`);
     }
     return response.data;
@@ -73,6 +72,21 @@ export const createUser = async (userId, username, password, email) => {
   }
 };
 
+export const createCollection = async (collectionId, collection_name, user) => {
+  try {
+    const response = await axios.post(`${API_URL}/api/collection`, {
+      collectionId,
+      collection_name,
+      user,
+    });
+    return response.data;
+  } catch (error) {
+    // Gérer les erreurs de requête
+    console.error('Erreur lors de la création de la collection', error);
+    throw error;
+  }
+};
+
 export const checkUsernameExists = async (username) => {
   try {
     const response = await axios.get(`${API_URL}/api/users/name/${username}`);
@@ -91,6 +105,32 @@ export const checkEmailExists = async (email) => {
   } catch (error) {
     // Gérer les erreurs de requête
     console.error('Erreur lors de la récupération de l\'email depuis la base de données users Wankul', error);
+    throw error;
+  }
+};
+
+export const checkCollNameExists = async (collection_name, user_id) => {
+  try {
+    const response = await axios.get(`${API_URL}/api/collection/name/${collection_name}`, {
+      user_id,
+    });
+    return response.data;
+  } catch (error) {
+    // Gérer les erreurs de requête
+    console.error('Erreur lors de la récupération de la collection depuis la base de données users Wankul', error);
+    throw error;
+  }
+};
+
+export const checkDeckNameExists = async (deck_name, user_id) => {
+  try {
+    const response = await axios.get(`${API_URL}/api/deck/name/${deck_name}`, {
+      user_id,
+    });
+    return response.data;
+  } catch (error) {
+    // Gérer les erreurs de requête
+    console.error('Erreur lors de la récupération du deck depuis la base de données users Wankul', error);
     throw error;
   }
 };

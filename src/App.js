@@ -7,18 +7,20 @@ import { faUser, faArrowRightFromBracket } from '@fortawesome/free-solid-svg-ico
 import './App.css';
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(sessionStorage.userData);
+  const userData = sessionStorage.userData ? JSON.parse(sessionStorage.userData) : ''
+  const [user, setUser] = useState(userData);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  console.log(user)
 
   const handleLogin = () => {
     // Logique de connexion
-    setIsLoggedIn(true);
+    setUser(true);
   };
 
   const handleLogout = () => {
     // Logique de déconnexion
     sessionStorage.clear();
-    setIsLoggedIn(false);
+    setUser(false);
   };
 
   const toggleMenu = () => {
@@ -30,7 +32,7 @@ function App() {
       <header>
         <div>
           <img className="headerImage" src={process.env.PUBLIC_URL +"/fondNoir.png"} />
-          {isLoggedIn ? (
+          {user ? (
             /*<nav>
               <button type="button" className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
                 <span className="line"></span>
@@ -51,12 +53,12 @@ function App() {
           <ul id="menu-main-navigation" >
             <li className='menu-item'><Link to="/">Accueil</Link></li>
             <li className='menu-item'><Link to="https://wankul.fr/">Wankul</Link></li>
-            <li className='menu-item'><Link to="/">Mes Collections</Link></li>
+            <li className='menu-item'><Link to="/CreateCollection">Mes Collections</Link></li>
           </ul>
         </nav>
       </header>
       <div className="App">
-        <Main onLogin={handleLogin}/>
+        <Main user={user} onLogin={handleLogin}/>
       </div>
     </div>
   );

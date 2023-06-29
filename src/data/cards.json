@@ -3,33 +3,31 @@
         "name": "Navire Pirate",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "navire-pirate.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 5 cartes du dessus de son deck.",
+            "special": "Quand ce Terrain entre en jeu, chaque joueur défausse une carte." 
+        }
     },
     "2" : {
         "name": "Portal",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "portal.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
         "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "déplace un Personnage depuis ce Terrain vers un autre.",
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Les cartes Terracid ont +1 en Force"
+        }
     },
     "3" : {
         "name": "Quantum",
@@ -99,17 +97,16 @@
         "name": "Golf",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "golf.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "pioche pour avoir 5 cartes en main.",
+            "perdant": "défausse pour avoir au maximum 3 cartes en main.",
+            "continu": "Chaque joueur pioche une carte de plus à son tour."
+        }
     },
     "8" : {
         "name": "Dust 2",
@@ -147,17 +144,15 @@
         "name": "La F.A.Q",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "faq.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "special": "Quand ce Terrain entre en jeu, chaque joueur pioche pour avoir 5 cartes en main."
+        }
     },
     "11" : {
         "name": "Musée",
@@ -275,15 +270,15 @@
         "name": "Tchernobyl",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "tchernobyl.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "action": {
+            "gagnant": "reprend en main un de ses Personnages qui était sur ce Terrain.",
+            "perdant": "défausse les 3 cartes du dessus de son deck."
+        },
         "left": 0,
         "right": 0
     },
@@ -291,33 +286,29 @@
         "name": "Valheim",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "valheim.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "défausse la première carte du dessus de son deck.",
+            "perdant": "défausse les 5 cartes du dessus de son deck."
+        }
     },
     "20" : {
         "name": "Tranchées",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "tranchees.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 4 cartes du dessus de son deck.",
+            "continu": "Sur ce Terrain, tous les Personnages coûtent +2 à poser."
+        }
     },
     "21" : {
         "name": "Ravenholm",
@@ -371,17 +362,15 @@
         "name": "Barrage",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "barrage.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "cherche une carte dans son deck, la met en main et mélange son deck.",
+            "perdant": "défausse les 4 cartes du dessus de son deck."
+        }
     },
     "25" : {
         "name": "Chernogorsk",
@@ -435,17 +424,15 @@
         "name": "Uretus",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "uretus.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "défausse, si possible, un autre Terrain en jeu et le remplace par un de sa main.",
+            "perdant": "défausse les 3 cartes du dessus de son deck."
+        }
     },
     "29" : {
         "name": "Wankil Show",
@@ -499,32 +486,37 @@
         "name": "Garagiste",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "garagiste-t.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Sur le côté droit, on trouve la jauge à huile. Sur le côté gauche, on trouve le côté gauche.",
+        "action": {
+            "basic": ["Piochez une carte"]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "33" : {
         "name": "Camionneur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "camionneur-l.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "\"Quand je vois les flammes sur mon camtar, ça me donne envie de chialer.\"",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 3 maximum."],
+            "combo": "Piochez une carte."
+        },
+        "left": 2,
         "right": 0
     },
     "34" : {
@@ -547,96 +539,111 @@
         "name": "Vendeur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "vendeur-l.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "Le saviez-vous? Brico Sympa est né de la collaboration entre 2 types qui savent pas percer un mur.",
+        "action": {
+            "continu": "Votre adversaire défausse une carte de plus, si vous gagnez un Terrain.",
+            "combo": "Scorez un Terrain."
+        },
+        "left": 1,
         "right": 0
     },
     "36" : {
         "name": "Vendeur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "vendeur-t.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 4,
+        "desc": "Vu à la télé, Socisseau est LA révolution de la saucisse sous vide au goût douteux !",
+        "action": {
+            "continu": "Votre adversaire défausse une carte de plus, si vous gagnez un Terrain."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "37" : {
         "name": "Annabelle",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "annabelle.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Aucun de ses propriétaires n'a jamais eu à se plaindre d'elle (ils sont tous morts).",
+        "action": {
+            "continu": "Votre adversaire défausse une carte de plus, si vous gagnez un Terrain.",
+            "combo": "Scorez un Terrain."
+        },
+        "left": 1,
         "right": 0
     },
     "38" : {
         "name": "Grudge",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "grudge.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Elle fait peur comme ça, mais en réalité, si on apprend à la connaître, elle est super sympa.",
+        "action": {
+            "basic": ["Défaussez un Personnage en jeu chez votre adversaire."]
+        },
+        "left": 2,
         "right": 0
     },
     "39" : {
         "name": "Astronaute",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "astronaute-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Allô, Houston ! Il y a un invité surprise dans le vaisseau, vous pourriez m'aider ?",
+        "action": {
+            "continu": "Si votre adversaire défausse un moins 2 cartes, il en défausse une de plus."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "40" : {
         "name": "Astronaute",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "astronaute-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "Ses dernières paroles ont été : \"Hal, pourquoi tu as ouvert tous les SAS de sécurité ?\"",
+        "action": {
+            "continu": "Si votre adversaire défausse un moins 2 cartes, il en défausse une de plus.",
+            "combo": "Piochez 2 cartes."
+        },
+        "left": 1,
         "right": 0
     },
     "41" : {
@@ -659,32 +666,37 @@
         "name": "Boxeur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "boxeur-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "La seule ceinture qu'il a eue était celle de sécurité dans sa Peugeot 206.",
+        "action": {
+            "continu": "Votre adversaire doit défaussez une carte de plus pour poser ses Personnages."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "43" : {
         "name": "Infecté",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "infecte-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Eeeeeuuuh... zbaaaarg mhhh oooooergggg !\"",
+        "action": {
+            "continu": "Si vous avez plus de cartes dans votre défausse que dans votre deck, reprenez en main la carte du dessus de votre défausse en début de tour.",
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
+        "left": 2,
         "right": 0
     },
     "44" : {
@@ -723,17 +735,19 @@
         "name": "Fermier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "fermier-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
         "power": 0,
-        "desc": "",
-        "action": "",
+        "desc": "Il a tout plaqué et est parti élever des vaches par passion. Le lait qu'il produit est dégueulasse.",
+        "action": {
+            "continu": "Au moment de scorer, vos Personnages Laink ont +1 en Force."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "47" : {
         "name": "Chien",
@@ -773,33 +787,37 @@
         "name": "Fromager",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "fromager.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "L'avantage est que, dans sa fromagerie, il peut faire un prout bien odorant en toute discrétion.",
+        "action": {
+            "basic": ["Vous et votre adversaire défaussez la première carte de votre deck.", "Si la vôtre a plus en Force, récupérez-la en main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "50" : {
         "name": "Charcutier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "charcutier.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Jambon, saucisson, terrine, rillettes, mais surtout un excellent boudin qui pue bien comme il faut.",
+        "action": {
+            "basic": ["Vous et votre adversaire défaussez la première carte de votre deck.", "Si la vôtre a plus en Force, récupérez-la en main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "51" : {
         "name": "Businessman",
@@ -821,17 +839,19 @@
         "name": "Débile",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "debile-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Inventeur de la paille saucisse et de l'oeuf sur PC, il est désormais étudié pour son \"intelligence\".",
+        "action": {
+            "basic": ["Echangez la position de deux de vos Personnages en jeu."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "53" : {
         "name": "Débile",
@@ -853,33 +873,36 @@
         "name": "Paysan",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "paysan-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Il est incapable de compter le nombre de dents de sa fourche, mais y a pas plus calé en cochon !",
+        "action": {
+            "basic": ["Reprenez en main un Terrain de votre défausse."],
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
+        "left": 1,
         "right": 0
     },
     "55" : {
         "name": "Paysan",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "paysan-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
+        "power": 2,
+        "desc": "Une fois le paysan voisin lui a volé une chèvre. Pour se venger il lui a cramé sa baraque.",
         "action": "",
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "56" : {
         "name": "Cuisinier",
@@ -901,31 +924,36 @@
         "name": "Cuisinier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "cuisinier-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Il a participé brièvement à une émission de cuisine, intoxiqué tout le jury et brûlé 50% du studio.",
+        "action": {
+            "basic": ["Regardez les 3 prochaines cartes du deck de votre adversaire et reposez-les dans l'ordre de votre choix."],
+            "combo": "Piochez une carte."
+        },
+        "left": 2,
         "right": 0
     },
     "58" : {
         "name": "Bébé",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "bebe-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Il semble avoir trouvé le jouet de maman.",
+        "action": {
+            "continu": "Si vous ne l'avez pas joué ce tour, échangez ce Personnage avec un Personnage de votre main et défaussez une carte."
+        },
         "left": 0,
         "right": 0
     },
@@ -933,15 +961,17 @@
         "name": "Bébé",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "bebe-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Avec 18 compotes par jour, bébé est obligé de rester constamment sur le pot.",
+        "action": {
+            "continu": "Si vous ne l'avez pas joué ce tour, échangez ce Personnage avec un Personnage de votre main et défaussez une carte."
+        },
         "left": 0,
         "right": 0
     },
@@ -949,64 +979,75 @@
         "name": "Chasseur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "chasseur.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "power": 3,
+        "desc": "\"J'ai abattu un cerf ce matin ! Par contre, super bizarre, il avait un anorak jaune et des moufles.\"",
+        "action": {
+            "basic": ["Défaussez un de vos Personnages et un Personnage adverse."],
+            "combo": "Regardez la carte du dessous de votre deck. Vous pouvez la reposer au dessus."
+        },
+        "left": 1,
+        "right": 2
     },
     "61" : {
         "name": "Pilote d’avion",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "pilote-avion.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "\"Mesdmaes, messieurs, bienvenue à bord du vol 3770, veuillez attacher vos ceintures, ça va secouer.\"",
+        "action": {
+            "basic": ["Déplacez un autre Personnage d'un Terrain vers un autre."],
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
+        "left": 2,
         "right": 0
     },
     "62" : {
         "name": "Agrou",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "agrou-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Tout le village a voté pour le pendre la première nuit alors qu'il était Maire depuis 5 minutes.",
+        "action": {
+            "continu": "Ce Personnage a +1 en Force pour chaque carte que vous avez en main."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "63" : {
         "name": "Agrou",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "agrou-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Une fois il s'est transformé en loup-garou mais vu qu'il est végétarien, il est resté super sympa.",
+        "action": {
+            "continu": "Ce Personnage a +1 en Force pour chaque carte que vous avez en main.",
+            "combo": "Piochez une carte."
+        },
+        "left": 1,
         "right": 0
     },
     "64" : {
@@ -1029,33 +1070,38 @@
         "name": "Chevalier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "chevalier-t.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 5,
+        "desc": "Il a bravé tous les dangers pour sauver la princesse de Montmirail (marcher sous la pluie).",
+        "action": {
+            "continu": "Une fois par tour, quand vous déclenchez une combo, reprenez en main la carte du dessus de votre défausse.",
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "66" : {
         "name": "Peintre",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "peintre-l.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Il utilise le pointillisme, comme un de ses camarades de classe autrichiens d'ailleurs.",
+        "action": {
+            "combo": "Ce Personnage a +1 en Force, pour chacune de vos combos en jeu."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "67" : {
         "name": "Peintre",
@@ -1125,17 +1171,19 @@
         "name": "Sorcier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "sorcier-t.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 2,
+        "desc": "Une fois il a fait disparaître le petit Jimmy pendant un spectacle, il n'est jamais réapparu.",
+        "action": {
+            "continu": "Votre adversaire ne peut pas jouer de Personnage de Force 2 ou plus sur le Terrain où est ce Personnage."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "72" : {
         "name": "Sdf",
@@ -1151,7 +1199,7 @@
         "desc": "Surnommé \"L'Architecte\", il aurait construit un 15m² intégralement en carton.",
         "action": {
             "continu": "Si c'est votre seul Personnage sur ce Terrain, il a +5 en Force.",
-            "combo": "Reprennez en main la carte du dessus de votre défausse."
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
         },
         "left": 2,
         "right": 0
@@ -1160,17 +1208,19 @@
         "name": "Sdf",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "sdf-t-.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Il a sorti une chanson à succès sur sa liberté de penser et ça s'est fini par un contrôle fiscal.",
+        "action": {
+            "continu": "Si c'est votre seul Personnage sur ce Terrain, il a +5 en Force."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "74" : {
         "name": "Touriste",
@@ -1208,17 +1258,20 @@
         "name": "Employé WcDo",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "employe-wcdo.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "power": 2,
+        "desc": "Très gentil, mais incapable de retenir \"pain viande salade pain\"",
+        "action": {
+            "continu": "+1 en Force pour chaque Employé WcDo.",
+            "combo": "Reprenez en main un carte WcDo de votre défausse."
+        },
+        "left": 1,
+        "right": 1
     },
     "77" : {
         "name": "Employé WcDo",
@@ -1240,17 +1293,19 @@
         "name": "Mort-vivant",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "mort-vivant-l.webp"
         },
-        "artist": "",
+        "artist": "O Redge",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 4,
+        "desc": "Il a utilisé son fémur comme arme contre le dernier aventurier venu explorer sa grotte.",
+        "action": {
+            "basic": ["Défaussez ce personnage à la fin de votre tour."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "79" : {
         "name": "Mort-vivant",
@@ -1266,7 +1321,7 @@
         "desc": "Il garde le trésor enfoui de la caverne Longmur depuis plus de 300 ans. Il a avoué s'ennuyer un peu",
         "action": {
             "basic": ["Défaussez ce personnage à la fin de votre tour."],
-            "combo": "Scorez un Terrain"
+            "combo": "Scorez un Terrain."
         },
         "left": 2,
         "right": 0
@@ -1334,7 +1389,7 @@
         "power": 4,
         "desc": "Soldat d'élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
         "action": {
-            "basic" : ["Pioche une carte"]
+            "basic" : ["Piochez une carte"]
         },
         "left": 0,
         "right": 1
@@ -1359,17 +1414,19 @@
         "name": "Clown Tueur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "clown-tueur.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Il a vécu 20 ans dans le placard d'enfance de Terracid, mais n'a jamais été remarqué (dépressif).",
+        "action": {
+            "basic": ["Reprenez en main la carte du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "86" : {
         "name": "Joueur du grenier",
@@ -1391,49 +1448,57 @@
         "name": "Seb",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "seb.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 2,
+        "power": 4,
+        "desc": "Autrefois Youtubeur émérite, Seb vit désormais dans la jungle au sein d'une famille de chimpanzés.",
+        "action": {
+            "basic": ["Piochez une carte"],
+            "combo-continue": "+2 en Force."
+        },
+        "left": 2,
+        "right": 1
     },
     "88" : {
         "name": "Amixem",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "amixem.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Guest",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
+        "action": {
+            "basic": ["Piochez une carte"],
+            "combo-continue": "+2 en Force."
+        },
+        "left": 2,
         "right": 0
     },
     "89" : {
         "name": "Pirate",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "pirate-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 5,
+        "desc": "On raconte que son navire a coulé dans le sud du Pacifique (à cause du poids de l'or dans la cale).",
+        "action": {
+            "basic": ["Votre adversaire défausse jusqu'à ce u'il ait autant de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "90" : {
         "name": "Pirate",
@@ -1471,15 +1536,18 @@
         "name": "Semi-Homme",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "semi-homme-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "Il ne l'avouera pas, mais il cherche par tous les moyens à s'accaparer de la rondelle de son compagnon.",
+        "action": {
+            "continu": "Vous pouvez défausser ce Personnage pour scorer un Terrain.",
+            "combo": "Placez une carte ou plusieurs cartes de votre main sous votre deck. Repiochez autant de cartes."
+        },
         "left": 0,
         "right": 0
     },
@@ -1519,33 +1587,38 @@
         "name": "Vieille",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "vieille-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 2,
+        "power": 4,
+        "desc": "\"J'ai déja vu le maréchal Pétain en slip. Eh bé, croyez-moi, c'était pas beau à voir !\"",
+        "action": {
+            "basic": ["Echangez un de vos Personnages posés avec un de votre main de Force inférieure ou égale."],
+            "combo": "Piochez 3 cartes."
+        },
+        "left": 2,
         "right": 0
     },
     "96" : {
         "name": "Vieille",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "vieille-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "\"Moi de mon temps, on avait un bâton et des cailloux pour s'amuser et c'était très bien comme ça !\"",
+        "action": {
+            "basic": ["Echangez un de vos Personnages posés avec un de votre main de Force inférieure ou égale."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "97" : {
         "name": "Fanboy",
@@ -1567,33 +1640,38 @@
         "name": "Fangirl",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "fangirl.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 3,
+        "desc": "Ne vous fiez pas à son air innocent, elle a écrit pas moins de 326 fanfictions érotiques sur ses Youtubeurs préférés.",
+        "action": {
+            "basic": ["Votre adversaire défausse pour avoir autant de cartes en main que vous."],
+            "combo": "Piochez 3 cartes."
+        },
+        "left": 1,
+        "right": 3
     },
     "99" : {
         "name": "Gotaga",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "gotaga.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Guest",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "Les journaux l'appellent \"French Monster\" ou \"Celui qui a pris une belle tête par Terracid\"",
+        "action": {
+            "basic": ["Défaussez un de vos Personnages en jeu.", "Votre adversaire défausse autant de cartes de son deck que sa valeur en Force."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "100" : {
         "name": "Billy le bonhomme de neige",
@@ -1631,25 +1709,27 @@
         "name": "Steve",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "steve-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Avant, il avait une ferme avec beaucoup d'animaux très mignons, mais un jour, il a eu besoin d'XP...",
+        "action": {
+            "combo-continue": "Cette carte a +1 en Force pour chacun de vos Personnages sur ce Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "103" : {
         "name": "Steve",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "steve-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
@@ -1663,32 +1743,37 @@
         "name": "Apprentie sorcière",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "apprentie-sorciere.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"Plus qu'une goutte de polymorphie, et ma potion contre l'acné juvénile sera enfin prête",
+        "action": {
+            "basic": ["Cherchez dans votre deck et choisissez une carte que vous piochez.", "Mélangez ensuite votre deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "105" : {
         "name": "Elfe",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "elfe.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "Il veut faire des saloperies avec la chaussette de son maître.",
+        "action": {
+            "basic": ["Cherchez dans votre deck et choisissez une carte que vous piochez.","Mélangez ensuite votre deck."],
+            "combo": "Jouez gratuitement une de vos cartes Personnage."
+        },
+        "left": 1,
         "right": 0
     },
     "106" : {
@@ -1711,16 +1796,19 @@
         "name": "Sel",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "sel-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Quand il rage, il a le pouvoir de faire augmenter en flèche votre hypertension artérielle.",
+        "action": {
+            "basic": ["Ce tour, si vous perdez le prochain Score, votre adversaire défausse un de ses Personnages en jeu."],
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
+        "left": 1,
         "right": 0
     },
     "108" : {
@@ -1759,16 +1847,19 @@
         "name": "Cowboy",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "cowboy-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 2,
+        "power": 3,
+        "desc": "C'est le premier à avoir avoué qu'il y avait assez de place pour tout le monde dans cette ville.",
+        "action": {
+            "basic": ["Défaussez la première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont moins en Force."],
+            "combo": "Jouez une carte Personnage sans payer son coût."
+        },
+        "left": 1,
         "right": 0
     },
     "111" : {
@@ -1784,7 +1875,7 @@
         "power": 3,
         "desc": "Il a gagné son duel contre McNuggets. En même temps, c'était pas compliqué, McNuggets était aveugle.",
         "action": {
-            "basic": ["Défausse la Première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont plus en Force."]
+            "basic": ["Défaussez la première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont plus en Force."]
         },
         "left": 0,
         "right": 2
@@ -1818,7 +1909,7 @@
         "power": 2,
         "desc": "\"Mon bon monsieur, votre femme qui accouche c'est pas mon problème. Ici, c'est une place réservée.\"",
         "action": {
-            "continu": "Défausse ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
+            "continu": "Défaussez ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
             "combo": "Si vous avez un  Policier dans votre défausse, posez-le au-dessus de votre deck."
         },
         "left": 2,
@@ -1844,33 +1935,37 @@
         "name": "Singe",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "singe.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"OUH OUH AAAAH AH OUH caca OUUUUUH !",
+        "action": {
+            "basic": ["Déplacez un autre Personnage d'un Terrain vers un autre."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "116" : {
         "name": "Enquêteur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "enqueteur.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "La seule enquête qu'il n'a pas encore résolue, c'est celle du fantôme à la kékette tordue.",
+        "action": {
+            "basic": ["Regardez les 3 premières cartes de votre deck.", "Piochez-en-une, jouez-en une gratuitement et remettez la dernière sur le deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "117" : {
         "name": "Potatoz",
@@ -1924,17 +2019,19 @@
         "name": "Bretonne bigoudene",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "bretonne-bigoudene.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Ça fait 3 jours qu'elle pédale après celui qui a osé voler sa recette de crêpes aux huîtres.",
+        "action": {
+            "basic": ["Si vous avez exactement 3 ou 5 cartes en main, récupérez les 2 cartes du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "121" : {
         "name": "Roi",
@@ -2038,49 +2135,56 @@
         "name": "Fée",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "fee.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 4,
+        "desc": "Elle est très mignonne, mais méfiez-vous : ses sorts préférés sont l'abcès anal et la varicelle",
+        "action": {
+            "basic": ["Annoncez un chiffre et piochez la première carte de votre deck. Si c'est un Personnage de Force égale à ce chiffre, mettez-le en jeu gratiutement et recommencez."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "128" : {
         "name": "G cramé",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "g-cramé.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Random",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"J'explorais les catacombes et puis j'ai cramé\"",
+        "action": {
+            "basic": ["Cherchez dans votre deck et choisissez 2 cartes que vous piochez.", "Mélangez ensuite votre deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "129" : {
         "name": "Superconeri",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "superconeri.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Guest",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "power": 1,
+        "desc": "On peut penser qu'il est très intelligent, mais sachez qu'il a déja construit un bateau en béton.",
+        "action": {
+            "basic": ["Scorez 1 ou 2 Terrains."],
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
+        "left": 1,
+        "right": 1
     },
     "130" : {
         "name": "Moine",
@@ -2127,7 +2231,7 @@
         "power": 3,
         "desc": "\"Moi ? Le cybersexe ? N'importe quoi, trop nul le cybersexe, je vais jamais au cybersexe, moi.\"",
         "action": {
-            "basic": ["Défaussez un personnage adverse en jeu d'une Force de 2 maximum"],
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 2 maximum."],
             "combo": "Votre adversaire défausse la carte du dessus de son deck."
         },
         "left": 1,
@@ -2169,15 +2273,17 @@
         "name": "Dresseur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "dresseur.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 3,
+        "power": 6,
+        "desc": "Meilleur dresseur du monde mais chômeur et pas de parents.",
+        "action": {
+            "continu": "Quand votre adversaire pioche, il pioche une carte de plus et en défausse une."
+        },
         "left": 0,
         "right": 0
     },
@@ -2185,17 +2291,19 @@
         "name": "Dresseuse",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "dresseuse.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 3,
+        "power": 6,
+        "desc": "Oui, c'est un peu comme des combats de chiens sauf que, là, on les garde dans des boules.",
+        "action": {
+            "continu": "Quand votre adversaire pioche, il pioche une carte de plus et en défausse une."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "137" : {
         "name": "Survivant",
@@ -2217,49 +2325,55 @@
         "name": "Survivant",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "survivant-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "\"Il me reste seulement 18 boîtes de conserve. Je ne tiendrai jamais la journée.\"",
+        "action": {
+            "basic": ["Si vous avez exactement 4 cartes en main, récupérez la carte du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "139" : {
         "name": "Wicromania",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "wicromania.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"C'est le tout dernier Call Of neuf sous blister ? Je peux vous le reprendre 2€, si vous voulez.",
+        "action": {
+            "basic": ["Annoncez un nombre, puis regardez la première carte de votre deck.", "Si elle a cette valeur de Force, mettez-la en jeu gratuitement.", "Sinon piochez-la"],
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "140" : {
         "name": "Voyant",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "voyant.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 3,
+        "desc": "Il a eu sa première vision avec une tranche de jambon de Bayonne, à l'âge de 9 ans.",
+        "action": {
+            "basic": ["Regardez les 3 premières cartes de votre deck.","Piochez-en-une, jouez-en une gratuitement et remettez la dernière sur le deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "141" : {
         "name": "Pierre Rondin",
@@ -2281,17 +2395,19 @@
         "name": "André Rondin",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "andre-rondin.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Il a joué avec un vieil obus trouvé près de la rivière et depuis il est puni.",
+        "action": {
+            "basic": ["Doublez la Force de tous vos autres Personnages jusqu'à la fin de votre tour."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "143" : {
         "name": "Professeur",
@@ -2313,17 +2429,19 @@
         "name": "Professeur",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "professeur-t.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 2,
+        "desc": "La réponse est simple : \"On ne mange pas avec les doigts.\"",
+        "action": {
+            "continu": "Doublez la Force de tous vos Personnages de type Terracid."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "145" : {
         "name": "Samouraï",
@@ -2347,30 +2465,33 @@
         "name": "Sage Japonais",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "sage-japonais.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Autrefois grand maître de kung-fu, il arnaque aujourd'hui les touristes sur le mont Fuji.",
+        "action": {
+            "continu": "Diviser par 2 la Force de tous les Personnages adverses sur le même Terrain que ce Personnage.",
+            "combo": "Scorez un Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "147" : {
         "name": "Jeanine",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "jeanine.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
+        "power": 1,
+        "desc": "Elle a tendance à râler pendant qu'elle bosse et à insulter copieusement Martine dans son dos.",
         "action": "",
         "left": 0,
         "right": 0
@@ -2443,32 +2564,37 @@
         "name": "Cowboy",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "cowboy-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Il a gagné son duel contre McNuggets. En même temps, c'était pas compliqué, McNuggets était aveugle.",
+        "action": {
+            "basic": ["Défaussez la première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont plus en Force."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "153" : {
         "name": "Policier",
         "set": "Origins",
         "image": {
-            "src": "ct.webp"
+            "src": "policier-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Partir en intervention le ventre vide, c'est irresponsable, voire carrément dangereux !\"",
+        "action": {
+            "continu": "Défaussez ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
+            "combo": "Si vous avez un  Policier dans votre défausse, posez-le au-dessus de votre deck."
+        },
+        "left": 1,
         "right": 0
     },
     "154" : {
