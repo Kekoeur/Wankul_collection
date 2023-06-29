@@ -124,8 +124,11 @@ export const checkEmailExists = async (email) => {
 
 export const checkCollNameExists = async (collection_name, user_id) => {
   try {
+    console.log(user_id)
     const response = await axios.get(`${API_URL}/api/collection/name/${collection_name}`, {
-      user_id,
+      params: {
+        user_id: user_id,
+      },
     });
     return response.data;
   } catch (error) {
@@ -138,7 +141,9 @@ export const checkCollNameExists = async (collection_name, user_id) => {
 export const checkDeckNameExists = async (deck_name, user_id) => {
   try {
     const response = await axios.get(`${API_URL}/api/deck/name/${deck_name}`, {
-      user_id,
+      params: {
+        user_id: user_id,
+      },
     });
     return response.data;
   } catch (error) {

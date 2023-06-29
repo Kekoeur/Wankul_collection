@@ -18,9 +18,10 @@ const CreateCollection = ({user}) => {
     setError('');
 
     try {
+        console.log(userId)
         
         // Vérifier si le nom de collection existe déjà dans la base de données
-        const isNameTaken = await checkCollNameExists(collection_name);
+        const isNameTaken = await checkCollNameExists(collection_name, userId);
     
         if (isNameTaken.length !== 0) {
             setError('Nom de collection déjà pris');

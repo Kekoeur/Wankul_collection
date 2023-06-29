@@ -201,9 +201,10 @@ app.get('/api/users/email/:email', (req, res) => {
 // Endpoint pour récupérer les données de la table "collection"
 app.get('/api/collection/name/:collection_name', (req, res) => {
   const collection_name = req.params.collection_name;
-  const user_id = req.body.userId;
+  const user_id = req.query.user_id;
+  console.log(user_id)
 
-  const query = 'SELECT * FROM collection WHERE collection_name = ? WHERE user_id = ?';
+  const query = 'SELECT * FROM collection WHERE collection_name = ? AND user_id = ?';
   const values = [collection_name, user_id];
 
   connection.query(query, values, (error, results) => {
@@ -219,9 +220,9 @@ app.get('/api/collection/name/:collection_name', (req, res) => {
 // Endpoint pour récupérer les données de la table "deck"
 app.get('/api/deck/name/:deck_name', (req, res) => {
   const collection_name = req.params.deck_name;
-  const user_id = req.body.userId;
+  const user_id = req.query.userId;
 
-  const query = 'SELECT * FROM deck WHERE deck_name = ? WHERE user_id = ?';
+  const query = 'SELECT * FROM deck WHERE deck_name = ? AND user_id = ?';
   const values = [deck_name, user_id];
 
   connection.query(query, values, (error, results) => {
