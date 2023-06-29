@@ -90,6 +90,29 @@ app.get('/api/collections/:collectionId', (req, res) => {
 });
 
 
+app.get('/api/collections/users/:userId', (req, res) => {
+  const user_id = req.params.userId;
+
+  const query = 'SELECT * FROM collection WHERE user_id = ?';
+  const values = [user_id];
+  const formattedQuery = mysql.format(query, values);
+
+  connection.query(formattedQuery, (error, results) => {
+    if (error) {
+      console.error('Erreur lors de la récupération des collections de l\'utilisateur', user_id, 'depuis la base de données', error);
+      res.status(500).json({ error: 'Erreur lors de la récupération des collections de l\'utilisateur depuis la base de données' });
+    } else {
+      if (results.length === 0) {
+        res.status(404).json({ error: 'Aucune collection trouvée' });
+      } else {
+        const collections = results;
+        res.json(collections);
+      }
+    }
+  });
+});
+
+
 app.put('/api/collections/:collectionId', (req, res) => {
   const collectionId = req.params.collectionId;
   const newComposition = req.body.newComposition;

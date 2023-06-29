@@ -43,6 +43,19 @@ export const fetchCollectionsFromWankulDatabase = async (id = null) => {
   }
 };
 
+// Fonction pour récupérer les informations des collections depuis la base de données "Wankul"
+export const fetchCollectionsUserFromWankulDatabase = async (user_id) => {
+  try {
+    const response = await axios.get(`${API_URL}/api/collections/users/${user_id}`);
+    console.log(response.data)
+    return response.data;
+  } catch (error) {
+    // Gérer les erreurs de requête
+    console.error('Erreur lors de la récupération des collections de l\'utilisateur depuis la base de données Wankul', error);
+    throw error;
+  }
+};
+
 export const updateCollectionComposition = async (collectionId, newComposition) => {
   try {
     const response = await axios.put(`${API_URL}/api/collections/${collectionId}`, {
