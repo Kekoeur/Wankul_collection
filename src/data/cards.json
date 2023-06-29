@@ -2352,7 +2352,7 @@
         "power": 2,
         "desc": "\"C'est le tout dernier Call Of neuf sous blister ? Je peux vous le reprendre 2€, si vous voulez.",
         "action": {
-            "basic": ["Annoncez un nombre, puis regardez la première carte de votre deck.", "Si elle a cette valeur de Force, mettez-la en jeu gratuitement.", "Sinon piochez-la"],
+            "basic": ["Annoncez un nombre, puis regardez la première carte de votre deck.", "Si elle a cette valeur de Force, mettez-la en jeu gratuitement.", "Sinon piochez-la"]
         },
         "left": 0,
         "right": 1
