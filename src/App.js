@@ -14,6 +14,7 @@ function App() {
   const userData = sessionStorage.userData ? JSON.parse(sessionStorage.userData) : ''
   const [user, setUser] = useState(userData);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
   const [collections, setCollections] = useState();
 
   const handleLogin = () => {
@@ -29,6 +30,10 @@ function App() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleSubMenu = () => {
+    setIsSubMenuOpen(!isSubMenuOpen);
   };
 
   useEffect(() => {
@@ -52,7 +57,7 @@ function App() {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (subMenuRef.current && !subMenuRef.current.contains(event.target)) {
-        setIsMenuOpen(false);
+        setIsSubMenuOpen(false);
       }
     };
 
@@ -66,6 +71,9 @@ function App() {
     <div>
       <header>
         <div>
+          <div className="menu-toggle" onClick={toggleMenu}>
+            <div className="hamburger"></div>
+          </div>
           <img className="headerImage" src={process.env.PUBLIC_URL + "/fondNoir.png"} alt="Header" />
           {user ? (
             <a href="/" className="userBtn" onClick={handleLogout}>
@@ -77,14 +85,14 @@ function App() {
             </a>
           )}
         </div>
-        <nav>
-          <ul id="menu-main-navigation">
+        <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
+          <ul id="menu-main-navigation" className={`menu ${isMenuOpen ? 'open' : ''}`}>
             <li className='menu-item'><Link to="/">Accueil</Link></li>
             <li className='menu-item'><Link to="https://wankul.fr/">Wankul</Link></li>
             {user && (
               <li className="menu-item menu-parent" ref={subMenuRef}>
-                <span onClick={toggleMenu}>Mes Collections</span>
-                {isMenuOpen && (
+                <span onClick={toggleSubMenu}>Mes Collections</span>
+                {isSubMenuOpen && (
                   <ul className="sub-menu">
                     <li className="sub-menu-item">
                       <Link to="/CreateCollection">

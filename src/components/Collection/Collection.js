@@ -52,7 +52,11 @@ const Collection = ({ data }) => {
 
   return (
     <div>
-      { id && <h1>{collection.collection_name}</h1>}
+      { id && (<div>
+            <h1 className='coll-name'>{collection.collection_name}</h1>
+            <div className='divider'></div>
+          </div>
+          )}
       <div className="coll">
       {Object.keys(data).map((cardId) => {
         const cardInfo = data[cardId];
@@ -73,7 +77,7 @@ const Collection = ({ data }) => {
         );
       })}
       </div>
-      { id && <button onClick={handleSaveComposition}>Enregistrer la composition</button>}
+      { id && <button className="save" onClick={handleSaveComposition}>Sauvegarder</button>}
     </div>
   );
 };

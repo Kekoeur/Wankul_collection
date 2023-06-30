@@ -7,11 +7,11 @@ const QuantityInput = ({ decreaseText, increaseText, q, onChange }) => {
     let newQuantity = Number(quantity);
 
     if (isNaN(newQuantity)) {
-      newQuantity = 1;
+      newQuantity = 0;
     }
 
     newQuantity += change;
-    newQuantity = Math.max(newQuantity, 1);
+    newQuantity = Math.max(newQuantity, 0);
 
     setQuantity(newQuantity);
     onChange(newQuantity); // Appeler la fonction onChange avec la nouvelle quantité

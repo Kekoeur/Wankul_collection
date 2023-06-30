@@ -1,5 +1,4 @@
 body {
-  background-image: url(../public/fondbleu.png);
   margin: 0;
 }
 
@@ -51,32 +50,85 @@ header img {
   color: white;
 }
 
-.hamburger {
-  background-color: transparent;
-  border: none;
-  outline: none;
+.divider {
+  height: 1px;
+  width: 200px;
+  background-color: black;
+  margin: 10px auto 50px auto;
+}
+
+.save {
+  border-radius: 25px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-size: 18px;
+  height: 4rem;
+  padding: 0 4rem;
+  border-radius: 2rem;
+  border: 0.5px solid #222;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 10px 65px -10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: lighter;
+}
+
+.sub-menu {
+  width: max-content;
+}
+
+.sub-menu-item {
+  list-style: none;
+}
+
+.navbar {
+  position: relative;
+}
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
   cursor: pointer;
+  padding: 10px;
 }
 
-.hamburger .line {
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-right: 5px;
+}
+
+.hamburger:before,
+.hamburger:after {
+  content: '';
   display: block;
-  width: 30px;
-  height: 4px;
-  background-color: currentColor;
-  margin-block: 6px;
-  border-radius: 4px;
-  transition: transform .5s, opacity .25s;
-  color: white;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: transform 0.3s ease;
 }
 
-.hamburger.active .line:nth-child(1) {
-  transform: translateY(13px) rotate(45deg);
+.hamburger:before {
+  transform: translateY(-8px);
 }
 
-.hamburger.active .line:nth-child(2) {
-  opacity: 0;
+.hamburger:after {
+  transform: translateY(8px);
 }
 
-.hamburger.active .line:nth-child(3) {
-  transform: translateY(-13px) rotate(-45deg);
+.open .hamburger {
+  background-color: transparent;
+}
+
+.open .hamburger:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.open .hamburger:after {
+  transform: translateY(0) rotate(-45deg);
 }
