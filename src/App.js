@@ -72,7 +72,7 @@ function App() {
       <header>
         <div>
           <div className="menu-toggle" onClick={toggleMenu}>
-            <div className="hamburger"></div>
+            <div className={`hamburger ${isMenuOpen ? 'open' : ''}`}></div>
           </div>
           <img className="headerImage" src={process.env.PUBLIC_URL + "/fondNoir.png"} alt="Header" />
           {user ? (

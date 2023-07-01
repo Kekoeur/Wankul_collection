@@ -114,15 +114,13 @@
         "image": {
             "src": "dust-2.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Aucun autre Terrain ne peut être posé tant que celui-ci est en jeu."
+        }
     },
     "9" : {
         "name": "Space Factory",
@@ -160,15 +158,14 @@
         "image": {
             "src": "musee.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main un Terrain de se défausse.",
+            "perdant": "défausse les 4 cartes du dessus de son deck.",
+            "continu": "Aucun joueur ne peut piocher s'il a 3 cartes ou plus en main."
+        }
     },
     "12" : {
         "name": "FNAF",
@@ -240,15 +237,13 @@
         "image": {
             "src": "trou-du-monde.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Interdiction de jouer une carte ayant le même nom qu'une carte déjà en jeu."
+        }
     },
     "17" : {
         "name": "Moria",
@@ -256,15 +251,14 @@
         "image": {
             "src": "moria.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "déplace un de ses Personnages depuis ce Terrain vers un autre.",
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Les cartes Laink ont +1 en Force."
+        }
     },
     "18" : {
         "name": "Tchernobyl",
@@ -278,9 +272,7 @@
         "action": {
             "gagnant": "reprend en main un de ses Personnages qui était sur ce Terrain.",
             "perdant": "défausse les 3 cartes du dessus de son deck."
-        },
-        "left": 0,
-        "right": 0
+        }
     },
     "19" : {
         "name": "Valheim",
@@ -456,15 +448,13 @@
         "image": {
             "src": "convention.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "prend la carte du dessus de sa défausse en main pour chacune de ses cartes Terracid en Jeu.",
+            "perdant": "défausse la carte du dessus de son deck jusqu'à défausser une carte Laink."
+        }
     },
     "31" : {
         "name": "Garagiste",
@@ -1458,7 +1448,7 @@
         "desc": "Autrefois Youtubeur émérite, Seb vit désormais dans la jungle au sein d'une famille de chimpanzés.",
         "action": {
             "basic": ["Piochez une carte"],
-            "combo-continue": "+2 en Force."
+            "combo_continu": "+2 en Force."
         },
         "left": 2,
         "right": 1
@@ -1477,7 +1467,7 @@
         "desc": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
         "action": {
             "basic": ["Piochez une carte"],
-            "combo-continue": "+2 en Force."
+            "combo_continu": "+2 en Force."
         },
         "left": 2,
         "right": 0
@@ -1718,7 +1708,7 @@
         "power": 2,
         "desc": "Avant, il avait une ferme avec beaucoup d'animaux très mignons, mais un jour, il a eu besoin d'XP...",
         "action": {
-            "combo-continue": "Cette carte a +1 en Force pour chacun de vos Personnages sur ce Terrain."
+            "combo_continu": "Cette carte a +1 en Force pour chacun de vos Personnages sur ce Terrain."
         },
         "left": 2,
         "right": 0
