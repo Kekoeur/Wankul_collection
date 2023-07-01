@@ -35,15 +35,13 @@
         "image": {
             "src": "quantum.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main la carte du dessus de sa défausse.",
+            "perdant": "défausse les 3 cartes du dessus de son deck."
+        }
     },
     "4" : {
         "name": "Rocket Field",
@@ -51,15 +49,14 @@
         "image": {
             "src": "rocket-field.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "défausse les 2 cartes du dessus de son deck.",
+            "perdant": "défausse les 5 cartes du dessus de son deck.",
+            "continu": "Si un joueur a moins de 3 cartes en main, il pioche une carte."
+        }
     },
     "5" : {
         "name": "Rust",
@@ -67,15 +64,13 @@
         "image": {
             "src": "rust.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse autant de cartes du dessus de son deck qu'il a de cartes en main.",
+            "continu": "Au début de son tour, chaque joueur pioche une carte de plus."
+        }
     },
     "6" : {
         "name": "Il fait pas chaud",
@@ -83,15 +78,14 @@
         "image": {
             "src": "il-fait-pas-chaud.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main un Terrain de sa défausse.",
+            "perdant": "défausse 2 cartes de sa main par Terrain encore en jeu.",
+            "continu": "Pendant son tour, chaque joueur joue un Terrain ou défausse une carte."
+        }
     },
     "7" : {
         "name": "Golf",
@@ -128,15 +122,13 @@
         "image": {
             "src": "space-factory.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse toutes les cartes de sa main.",
+            "continu": "Si un joueur pioche, il le fait jusqu'à avoir au moins 5 cartes en main."
+        }
     },
     "10" : {
         "name": "La F.A.Q",
@@ -162,7 +154,7 @@
         "cat": "Terrain",
         "drop": "T",
         "action": {
-            "gagnant": "reprend en main un Terrain de se défausse.",
+            "gagnant": "reprend en main un Terrain de sa défausse.",
             "perdant": "défausse les 4 cartes du dessus de son deck.",
             "continu": "Aucun joueur ne peut piocher s'il a 3 cartes ou plus en main."
         }
@@ -173,15 +165,13 @@
         "image": {
             "src": "fnaf.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "repose autant de cartes qu'il veut de sa main sur le dessus de son deck.",
+            "perdant": "défausse toutes les cartes de sa main."
+        }
     },
     "13" : {
         "name": "Village",
@@ -189,15 +179,13 @@
         "image": {
             "src": "village.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "special": "Quand ce Terrain entre en jeu, chaque joueur joue un Personnage gratuitement."
+        }
     },
     "14" : {
         "name": "La Ferme",
@@ -205,15 +193,14 @@
         "image": {
             "src": "ferme.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "joue une de ses cartes gratuitement.",
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Toutes les cartes Personnage coûtent +1 à poser."
+        }
     },
     "15" : {
         "name": "Socisseau Factory",
@@ -221,15 +208,14 @@
         "image": {
             "src": "socisseau-factory.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "score un autre Terrain, de son choix (si possible).",
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "continu": "Si un joueur a plus de 5 cartes en main, il défausse pour n'en avoir que 5."
+        }
     },
     "16" : {
         "name": "Trou du Monde",
@@ -308,15 +294,14 @@
         "image": {
             "src": "ravenholm.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "échange son deck et sa défausse, puis défausse sa main.",
+            "perdant": "défausse les 4 cartes du dessus de son deck.",
+            "continu": "Ce Terrain ne peut être scoré que s'il est le seul Terrain en jeu."
+        }
     },
     "22" : {
         "name": "Urbex",
@@ -324,15 +309,13 @@
         "image": {
             "src": "urbex.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "regarde les 5 premières cartes du deck adverse et les réorganise.",
+            "perdant": "défausse les 4 cartes du dessus de son deck."
+        }
     },
     "23" : {
         "name": "Manoir",
@@ -340,15 +323,13 @@
         "image": {
             "src": "manoir.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main la carte du dessus de sa défausse.",
+            "perdant": "défausse les 5 cartes du dessus de son deck."
+        }
     },
     "24" : {
         "name": "Barrage",
@@ -370,15 +351,14 @@
         "image": {
             "src": "chernogorsk.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main la carte du dessus de sa défausse.",
+            "perdant": "défausse les 4 cartes du dessus de son deck.",
+            "continu": "Toutes les cartes Personnage coûtent 1 de moins à poser."
+        }
     },
     "26" : {
         "name": "Agrou",
@@ -386,15 +366,13 @@
         "image": {
             "src": "agrou.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "perdant": "défausse les 3 cartes du dessus de son deck.",
+            "special": "Quand ce Terrain entre en jeu, chaque joueur défausse un Personnage en jeu."
+        }
     },
     "27" : {
         "name": "Garage",
@@ -402,15 +380,13 @@
         "image": {
             "src": "garage.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "reprend en main un Terrain de sa défausse.",
+            "perdant": "défausse les 3 cartes du dessus de son deck."
+        }
     },
     "28" : {
         "name": "Uretus",
@@ -432,15 +408,13 @@
         "image": {
             "src": "wankil-show.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terrain",
         "drop": "T",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "action": {
+            "gagnant": "prend la carte du dessus de sa défausse en main pour chacune de ses cartes Laink en Jeu.",
+            "perdant": "défausse la carte du dessus de son deck jusqu'à défausser une carte Terracid."
+        }
     },
     "30" : {
         "name": "Convention",
@@ -462,14 +436,17 @@
         "image": {
             "src": "garagiste-l.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "\"C'est la rotule d'embrayage de la culasse qu'a peté. On sera dans les 5000 balles, ma bonne dame.\"",
+        "action": {
+            "basic": ["Piochez une carte."],
+            "combo_continu": "+1 en Force."
+        },
+        "left": 2,
         "right": 0
     },
     "32" : {
@@ -485,7 +462,7 @@
         "power": 1,
         "desc": "Sur le côté droit, on trouve la jauge à huile. Sur le côté gauche, on trouve le côté gauche.",
         "action": {
-            "basic": ["Piochez une carte"]
+            "basic": ["Piochez une carte."]
         },
         "left": 0,
         "right": 3
@@ -515,15 +492,17 @@
         "image": {
             "src": "camionneur-t.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Souvent vu sur l'A1 à 150 km/h, avec du pinard, un sandwich rosette et Johnny à fond dans la cabine.",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 3 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "35" : {
         "name": "Vendeur",
@@ -642,15 +621,18 @@
         "image": {
             "src": "boxeur-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 2,
+        "desc": "Tout le temps couché au 1er round, mais ne baisse jamais les bras car monte toujours sa garde.",
+        "action": {
+            "continu": "Défaussez 1 carte de moins pour mettre vos Personnages en jeu.",
+            "combo_continu": "A chaque fois que votre adversaire défausse 2 cartes ou plus, piochez une carte."
+        },
+        "left": 1,
+        "right": 2
     },
     "42" : {
         "name": "Boxeur",
@@ -695,15 +677,17 @@
         "image": {
             "src": "infecte-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "\"Blaaaarg mhhhhoooooo euuuuuoooo saucisse zbeeeeerg !\"",
+        "action": {
+            "continu": "Si vous avez plus de cartes dans votre défausse que dans votre deck, reprenez en main la carte du dessus de votre défausse en début de tour."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "45" : {
         "name": "Fermier",
@@ -711,15 +695,17 @@
         "image": {
             "src": "fermier-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
         "power": 0,
-        "desc": "",
-        "action": "",
+        "desc": "Depuis qu'il a quitté la ville pour un village, il a la belle vie à la ferme de Tournan-en-Brie.",
+        "action": {
+            "continu": "Au moment de scorer, vos Personnages Terracid ont +1 en Force."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "46" : {
         "name": "Fermier",
@@ -745,14 +731,17 @@
         "image": {
             "src": "chien.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "\"Wouf, wouf !\"",
+        "action": {
+            "basic": ["Si vous gagner un Score ce tour, appliquez 2 fois son effet Gagnant."],
+            "combo": "Scorez un Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "48" : {
@@ -815,15 +804,17 @@
         "image": {
             "src": "businessman.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 2,
+        "desc": "Il paraît qu'il a racheté tous les hôpitaux pour en faire des casinos.",
+        "action": {
+            "continu": "Si vous avez moins de Personnages en jeu que votre adversaire, le coût pour poser vos Personnages est diminué de 2."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "52" : {
         "name": "Débile",
@@ -849,15 +840,17 @@
         "image": {
             "src": "debile-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Il pense encore que le tacos saucisse va révolutionner le monde de la cuisine.",
+        "action": {
+            "basic": ["Echangez la position de deux de vos Personnages en jeu."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "54" : {
         "name": "Paysan",
@@ -900,15 +893,17 @@
         "image": {
             "src": "cuisinier-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Célèbre inventeur du nutri-score F et reconnu pour sa cuisine généreuse (voire dangereuse).",
+        "action": {
+            "basic": ["Regardez les 3 prochaines cartes du deck de votre adversaire et reposez-les dans l'ordre de votre choix."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "57" : {
         "name": "Cuisinier",
@@ -1046,14 +1041,17 @@
         "image": {
             "src": "chevalier-l.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 2,
+        "power": 5,
+        "desc": "On lui a ordonné de protéger le bien le plus précieux du château : la cave à bière.",
+        "action": {
+            "continu": "Pour votre adversaire, le coût pour poser un Personnage est augmenté de 1.",
+            "combo": "Défaussez un Personnage en jeu d'une Force de 2 ou moins."
+        },
+        "left": 2,
         "right": 0
     },
     "65" : {
@@ -1099,14 +1097,17 @@
         "image": {
             "src": "peintre-t.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Beaucoup de talent, mais si vous voulez le féliciter pour ça, alors ne parlez qu'à sa droite.",
+        "action": {
+            "combo": "Ce Personnage a +1 en Force, pour chacune de vos combos en jeu.",
+            "combo_continu": "Ce Personnage a +1 en Force pour chacune de vos combos en jeu."
+        },
+        "left": 2,
         "right": 0
     },
     "68" : {
@@ -1115,13 +1116,15 @@
         "image": {
             "src": "pompier-l.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 5,
+        "desc": "Le pauvre, il ne voulait être pompier que pour draguer, il ne savait pas qu'il allait être sur le terrain.",
+        "action": {
+            "basic": ["Si c'est la première carte posée sur son Terrain, reprenez en main les 3 cartes du dessus de votre défausse."]
+        },
         "left": 0,
         "right": 0
     },
@@ -1131,13 +1134,15 @@
         "image": {
             "src": "pompier-t.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 3,
+        "power": 6,
+        "desc": "Un vrai pompier choisira toujours de sauver en premier ce qu'il y a de plus important.",
+        "action": {
+            "basic": ["Si c'est la première carte posée sur son Terrain, reprenez en main les 4 cartes du dessus de votre défausse."]
+        },
         "left": 0,
         "right": 0
     },
@@ -1147,15 +1152,17 @@
         "image": {
             "src": "sorcier-l.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Demandez-lui une potion d'invisibilité et vous aurez une chance sur deux d'être empoisonné.",
+        "action": {
+            "continu": "Votre adversaire ne peut pas jouer de Personnage de Force 2 ou plus sur le Terrain où est ce Personnage."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "71" : {
         "name": "Sorcier",
@@ -1218,15 +1225,17 @@
         "image": {
             "src": "touriste-l.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 4,
+        "desc": "Habitué du camping des Vaguelettes depuis 30 ans, tireur de slips et responsable des apéros.",
+        "action": {
+            "continu": "Si ce Personnage participe à un Score sur un Terrain, il n'est pas défaussé, mais va sur un autre Terrain de votre choix."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "75" : {
         "name": "Touriste",
@@ -1234,15 +1243,17 @@
         "image": {
             "src": "touriste-t.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Détenteur du record de tubes de Biafine utilisés en une semaine.",
+        "action": {
+            "continu": "Si ce Personnage participe à un Score sur un Terrain, il n'est pas défaussé, mais va sur un autre Terrain de votre choix."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "76" : {
         "name": "Employé WcDo",
@@ -1269,15 +1280,17 @@
         "image": {
             "src": "employe-wcdo-t.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "C",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "Il fait pipi dans les frites des clients qui ne disent pas bonjour.",
+        "action": {
+            "continu": "+1 en Force pour chaque Employé WcDo."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "78" : {
         "name": "Mort-vivant",
@@ -1322,15 +1335,17 @@
         "image": {
             "src": "soldat-romain.webp"
         },
-        "artist": "",
+        "artist": "O Redge",
         "cat": "Terracid",
         "drop": "C",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "C'est lui qui a inventé la formation tortue, en référence à l'animal du même nom (la tortue).",
+        "action": {
+            "continu": "Ajoutez 3 cartes à la Force d'un Personnage pour ce tour, puis défaussez ce Personnage."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "81" : {
         "name": "Spiderlaink",
@@ -1356,15 +1371,18 @@
         "image": {
             "src": "thorracid.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "power": 2,
+        "desc": "\"Si vous pouviez vous dépêcher de prendre la photo, car le marteau est très lourd.\"",
+        "action": {
+            "basic": ["Votre adversaire défausse la carte du dessus de son deck."],
+            "combo": "Votre adversaire défausse la carte du dessus de son deck."
+        },
+        "left": 1,
+        "right": 2
     },
     "83" : {
         "name": "CT",
@@ -1379,7 +1397,7 @@
         "power": 4,
         "desc": "Soldat d'élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
         "action": {
-            "basic" : ["Piochez une carte"]
+            "basic" : ["Piochez une carte."]
         },
         "left": 0,
         "right": 1
@@ -1390,15 +1408,17 @@
         "image": {
             "src": "terro.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "\"Il faut que je maîtrise mon nova pomme d'amour comme je maîtrise ma vie.\"",
+        "action": {
+            "basic" : ["Piochez une carte."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "85" : {
         "name": "Clown Tueur",
@@ -1424,14 +1444,17 @@
         "image": {
             "src": "jdg.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "Il a oeuvré toute sa vie contre l'addiction aux drogues chez les dévelippeur de jeux.",
+        "action": {
+            "basic": ["Défaussez un Personnage en jeu de votre adversaire d'une Force de 2 maximum et scorez un Terrain."],
+            "combo": "Votre adversaire défausse la carte du dessus de son deck."
+        },
+        "left": 1,
         "right": 0
     },
     "87" : {
@@ -1447,7 +1470,7 @@
         "power": 4,
         "desc": "Autrefois Youtubeur émérite, Seb vit désormais dans la jungle au sein d'une famille de chimpanzés.",
         "action": {
-            "basic": ["Piochez une carte"],
+            "basic": ["Piochez une carte."],
             "combo_continu": "+2 en Force."
         },
         "left": 2,
@@ -1466,7 +1489,7 @@
         "power": 1,
         "desc": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
         "action": {
-            "basic": ["Piochez une carte"],
+            "basic": ["Piochez une carte."],
             "combo_continu": "+2 en Force."
         },
         "left": 2,
@@ -1485,7 +1508,7 @@
         "power": 5,
         "desc": "On raconte que son navire a coulé dans le sud du Pacifique (à cause du poids de l'or dans la cale).",
         "action": {
-            "basic": ["Votre adversaire défausse jusqu'à ce u'il ait autant de cartes en main que vous."]
+            "basic": ["Votre adversaire défausse jusqu'à ce qu'il ait autant de cartes en main que vous."]
         },
         "left": 0,
         "right": 3
@@ -1496,15 +1519,17 @@
         "image": {
             "src": "pirate-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 4,
+        "desc": "Il aime l'or, le sang, la bagarre, mais aussi l'odeur des croissants chauds de la boulangerie.",
+        "action": {
+            "basic": ["Votre adversaire défausse jusqu'à ce qu'il ait autant de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "91" : {
         "name": "Semi-Homme",
@@ -1512,15 +1537,17 @@
         "image": {
             "src": "semi-homme-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Malgré les difficultés, il insiste pour entretenir une romance hétéro curieuse avec son compagnon.",
+        "action": {
+            "continu": "Vous pouvez défausser ce Personnage pour scorer un Terrain."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "92" : {
         "name": "Semi-Homme",
@@ -1547,14 +1574,17 @@
         "image": {
             "src": "marthie.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 2,
+        "power": 4,
+        "desc": "Il fait croire à tout le monde qu'il n'a pris aucun plaisir en embrassant sa propre mère.",
+        "action": {
+            "continu": "Au moment de scorer, vous pouvez jouer gratuitement une carte sur le Terrain scoré sans en appliquer les effets.",
+            "combo": "Piochez une carte."
+        },
+        "left": 2,
         "right": 0
     },
     "94" : {
@@ -1563,14 +1593,17 @@
         "image": {
             "src": "doc.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 2,
+        "power": 4,
+        "desc": "A la base, il voulait juste mettre de la nitro dans sa DeLorean, puis ça a dégénéré.",
+        "action": {
+            "continu": "Au moment de scorer, vous pouvez jouer gratuitement une carte sur le Terrain scoré sans en appliquer les effets.",
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
+        "left": 1,
         "right": 0
     },
     "95" : {
@@ -1616,15 +1649,17 @@
         "image": {
             "src": "fanboy.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "A seulement 16 ans, comme chaque viewer du tchat, il est à la fois archéologue, boulanger, comptable, mécanicien...",
+        "action": {
+            "basic": ["Votre adversaire défausse depuis sa main pour avoir autant de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "98" : {
         "name": "Fangirl",
@@ -1643,7 +1678,7 @@
             "combo": "Piochez 3 cartes."
         },
         "left": 1,
-        "right": 3
+        "right": 0
     },
     "99" : {
         "name": "Gotaga",
@@ -1669,15 +1704,18 @@
         "image": {
             "src": "billy.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Random",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 2,
+        "power": 5,
+        "desc": "Il aime Noël, sa casquette, mais surtout assasiner des gens discrètement.",
+        "action": {
+            "continu": "Vous pouvez défausser ce Personnage pour scorer 1 ou 2 Terrains.",
+            "combo": "Placez une ou plusieurs cartes de votre main sous votre deck. Repiochez autant de cartes."
+        },
+        "left": 2,
+        "right": 1
     },
     "101" : {
         "name": "Gremlin",
@@ -1685,14 +1723,17 @@
         "image": {
             "src": "gremlin.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "S'il mange après minuit, ce monstre est capable de péter et roter indéfiniment.",
+        "action": {
+            "continu": "Si vous perdez un Score, récupérez en main la première carte de votre défausse.",
+            "combo": "Déplacez un autre Personnage d'un Terrain à un autre."
+        },
+        "left": 1,
         "right": 0
     },
     "102" : {
@@ -1723,11 +1764,11 @@
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Ne lui montrez surtout pas un diamant, sinon il devient inarrêtable.",
+        "action": {},
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "104" : {
         "name": "Apprentie sorcière",
@@ -1772,15 +1813,17 @@
         "image": {
             "src": "sel-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Quand il s'énerve, il est capable de déverser plus de sel que toute la mer Méditerranée.",
+        "action": {
+            "basic": ["Ce tour, si vous perdez le prochain Score, votre adversaire défausse 2 cartes de sa main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "107" : {
         "name": "Sel",
@@ -1807,15 +1850,18 @@
         "image": {
             "src": "mastu.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 3,
+        "desc": "Drôle, musclé, chanteur, a-t-il un défaut ? Aucun, sauf son furoncle entre les fesses depuis 2014.",
+        "action": {
+            "basic": ["Scorez tous les Terrains en jeu."],
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
+        "left": 2,
+        "right": 1
     },
     "109" : {
         "name": "Deotoons",
@@ -1823,15 +1869,18 @@
         "image": {
             "src": "deotoons.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 1,
+        "desc": "Il est très gentil, mais ne tombez surtout pas sur son double maléfique Diabo.",
+        "action": {
+            "continu": "Au début de votre tour, reprenez en main la carte du dessus de votre défausse.",
+            "combo": "Reprenez en main deux cartes du dessus de votre défausse."
+        },
+        "left": 2,
+        "right": 1
     },
     "110" : {
         "name": "Cowboy",
@@ -1876,14 +1925,17 @@
         "image": {
             "src": "policier-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Partir en intervention le ventre vide, c'est irresponsable, voire carrément dangereux !\"",
+        "action": {
+            "continu": "Défaussez ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
+            "combo": "Si vous avez un  Policier dans votre défausse, posez-le au-dessus de votre deck."
+        },
+        "left": 1,
         "right": 0
     },
     "113" : {
@@ -1911,15 +1963,17 @@
         "image": {
             "src": "obese.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Il n'a absolument pas le temps de réparer sa douche, il a raid tous les soirs !",
+        "action": {
+            "continu": "Si plus d'un Terrain est scoré dans le tour, tous vos Personnages ont +1 en Force pour le tour."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "115" : {
         "name": "Singe",
@@ -1963,14 +2017,17 @@
         "image": {
             "src": "potatoz.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "Il aurait proposé à la production de jeter les candidats éliminés dans une cage aux lions.",
+        "action": {
+            "basic": ["Scorez un Terrain."],
+            "combo_continu": "Cette carte a +1 en Force pour chacun de vos Personnages sur le même Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "118" : {
@@ -1979,15 +2036,17 @@
         "image": {
             "src": "jiraya.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 3,
+        "desc": "Il a dépensé le PIB de la Guyane, mais au moins sa tenue est très jolie !",
+        "action": {
+            "basic": ["Votre adversaire défausse depuis sa main jusqu'à ce qu'il ait moins de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "119" : {
         "name": "Feldup",
@@ -1995,15 +2054,18 @@
         "image": {
             "src": "feldup.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Guest",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "power": 3,
+        "desc": "Cela fait maintenant 30 jours qu'il est coincé dans les backrooms, mais apparemment il s'y sent bien.",
+        "action": {
+            "basic": ["Votre adversaire défausse la carte du dessus de son deck."],
+            "combo": "Votre adversaire défausse la carte du dessus de son deck."
+        },
+        "left": 1,
+        "right": 1
     },
     "120" : {
         "name": "Bretonne bigoudene",
@@ -2029,15 +2091,17 @@
         "image": {
             "src": "roi.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Terracid",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "On espère pour lui qu'il gardera sa tête, malré l'impôt qu'il augmente chaque année.",
+        "action": {
+            "continu": "Au moment de scorer, vous pouvez jouer gratuitement une carte sur le Terrain scoré sans en appliquer les effets."
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "122" : {
         "name": "Hugo Délire",
@@ -2045,15 +2109,17 @@
         "image": {
             "src": "hugo-delire.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 2,
+        "desc": "Le seul cowboy de la ville qui monte un âne et arrive quand même à braquer des banques.",
+        "action": {
+            "continu": "Vos autres Personnages qui ne sont ni Terracid ni Laink triplent leur Force."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "123" : {
         "name": "Xari",
@@ -2061,15 +2127,18 @@
         "image": {
             "src": "xari.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Guest",
         "drop": "UC",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 2,
+        "desc": "Tout le monde l'appelle \"le fast\", même sa copine, mais peut-être pas pour les mêmes raisons.",
+        "action": {
+            "continu": "Si vous devez défausser exactement 2 cartes d'un coup, vous n'en défaussez qu'une.",
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
+        "left": 1,
+        "right": 1
     },
     "124" : {
         "name": "Princesse",
@@ -2095,15 +2164,17 @@
         "image": {
             "src": "princesse-t.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "\"On m'a donné cette délicieuse pomme à Gare du Nord, je peux donc la croquer sans risque !\"",
+        "action": {
+            "continu": "Les Personnages doivent être posés sur le même Terrain que celui de ce Personnage."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "126" : {
         "name": "Prostitué",
@@ -2111,15 +2182,17 @@
         "image": {
             "src": "prostituee.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 4,
+        "desc": "\"Tu veux claquer de l'escalope et dégivrer le gigot, mon mignon ?\"",
+        "action": {
+            "basic": ["Chaque joueur annonce un chiffre en même temps.", "Le plus bas défausse autant de cartes.", "Le plus haut reprend un main autant de cartes de sa défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "127" : {
         "name": "Fée",
@@ -2182,15 +2255,17 @@
         "image": {
             "src": "moine.webp"
         },
-        "artist": "",
+        "artist": "O Redge",
         "cat": "Laink",
         "drop": "UC",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "Il voulait être charpentier, mais à cause de sa calvitie, il a dû changer de vocation.",
+        "action": {
+            "continu": "Défaussez ce personnage pour reprendre en main les 3 cartes du dessus de votre défausse."
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "131" : {
         "name": "CyberLaink",
@@ -2198,15 +2273,17 @@
         "image": {
             "src": "cyberlaink.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Il a fait pipi sur une voiture de la mafia et a démarré une guerre de gangs qui dure depuis 10 ans.",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 2 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "132" : {
         "name": "CyberTerra",
@@ -2233,15 +2310,17 @@
         "image": {
             "src": "jacques-flantier.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"BRANCARDIER ! J'ai des douleurs dans la nuque, c'est très désagréable ! Et j'ai mal au bidou !\"",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 1 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "134" : {
         "name": "Richard Flantier",
@@ -2249,15 +2328,17 @@
         "image": {
             "src": "richard-flantier.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Héros de guerre légendaire (il n'a tiré aucune balle et a poussé quelqu'un pour survivre).",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 1 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "135" : {
         "name": "Dresseur",
@@ -2301,15 +2382,17 @@
         "image": {
             "src": "survivant-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Pour survivre, il a dû faire des choses horribles, comme boire l'eau du robinet.",
+        "action": {
+            "basic": ["Si vous avez exactement 3 cartes en main, récupérez la carte du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "138" : {
         "name": "Survivant",
@@ -2371,14 +2454,17 @@
         "image": {
             "src": "pierre-rondin.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Il parait que Pinoche a embrassé Giselle sur la bouche près du vieux châtaigner",
+        "action": {
+            "basic": ["Doublez la Force de tous vos autres Personnages jusqu'à la fin de votre tour."],
+            "combo": "Scorez un Terrain."
+        },
+        "left": 1,
         "right": 0
     },
     "142" : {
@@ -2405,14 +2491,17 @@
         "image": {
             "src": "professeur-l.webp"
         },
-        "artist": "",
+        "artist": "Maël Lohbrunner",
         "cat": "Laink",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "Le taux de réussite au BAC dans sa classe est de 15%, et c'est déja pas mal.",
+        "action": {
+            "continu": "Doublez la Force de tous vos Personnages de type Laink.",
+            "combo": "Scorez un Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "144" : {
@@ -2482,9 +2571,12 @@
         "cost": 0,
         "power": 1,
         "desc": "Elle a tendance à râler pendant qu'elle bosse et à insulter copieusement Martine dans son dos.",
-        "action": "",
+        "action": {
+            "basic": ["Votre prochaine carte Personnage coûte 0 à mettre en jeu ce tour."],
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "148" : {
         "name": "Martine",
@@ -2492,14 +2584,17 @@
         "image": {
             "src": "martine.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "R",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "\"Les gens sont des porcs. C'est fou ce qu'on peut trouver par terre de nos jours.\"",
+        "action": {
+            "basic": ["Votre prochaine carte Personnage coûte 0 à mettre en jeu ce tour."],
+            "combo": "Scorez un Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "149" : {
@@ -2508,15 +2603,18 @@
         "image": {
             "src": "laink.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 3,
+        "power": 10,
+        "desc": "C'est ici que...",
+        "action": {
+            "continu": "Si vous scorez un Terrain pendant votre tour, défaussez ce Personnage.",
+            "combo-t": "Vos Personnages coûtent 0 à posez pour le tour."
+        },
+        "left": 3,
+        "right": 3
     },
     "150" : {
         "name": "Terracid",
@@ -2524,15 +2622,18 @@
         "image": {
             "src": "terracid.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "R",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 3,
+        "power": 10,
+        "desc": "... tout a commencé.",
+        "action": {
+            "continu": "Si vous scorez un Terrain pendant votre tour, défaussez ce Personnage.",
+            "combo-l": "Vos Personnages coûtent 0 à posez pour le tour."
+        },
+        "left": 3,
+        "right": 3
     },
     "151" : {
         "name": "Cowboy",
@@ -2540,15 +2641,18 @@
         "image": {
             "src": "holo-cowboy-l.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Laink",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 3,
+        "desc": "C'est le premier à avoir avoué qu'il y avait assez de place pour tout le monde dans cette ville.",
+        "action": {
+            "basic": ["Défaussez la première carte de votre deck.", "Défaussez tous les Personnages adverses en jeu qui ont moins en Force."],
+            "combo": "Jouez une carte Personnage sans payer son coût."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "152" : {
         "name": "Cowboy",
@@ -2593,14 +2697,17 @@
         "image": {
             "src": "holo-policier-t.webp"
         },
-        "artist": "",
+        "artist": "Benjamin Giletti",
         "cat": "Terracid",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 2,
+        "desc": "\"Mon bon monsieur, votre femme qui accouche c'est pas mon problème. Ici, c'est une place réservée.\"",
+        "action": {
+            "continu": "Défaussez ce Personnage à la place de n'importe quel autre qui devait être défaussé.",
+            "combo": "Si vous avez un  Policier dans votre défausse, posez-le au-dessus de votre deck."
+        },
+        "left": 2,
         "right": 0
     },
     "155" : {
@@ -2609,15 +2716,17 @@
         "image": {
             "src": "holo-sel-l.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Quand il s'énerve, il est capable de déverser plus de sel que toute la mer Méditerranée.",
+        "action": {
+            "basic": ["Ce tour, si vous perdez le prochain Score, votre adversaire défausse 2 cartes de sa main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "156" : {
         "name": "Sel",
@@ -2625,14 +2734,17 @@
         "image": {
             "src": "holo-sel-t.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 2,
+        "desc": "Quand il rage, il a le pouvoir de faire augmenter en flèche votre hypertension artérielle.",
+        "action": {
+            "basic": ["Ce tour, si vous perdez le prochain Score, votre adversaire défausse un de ses Personnages en jeu."],
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
+        "left": 1,
         "right": 0
     },
     "157" : {
@@ -2641,15 +2753,17 @@
         "image": {
             "src": "holo-fromager.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "L'avantage est que, dans sa fromagerie, il peut faire un prout bien odorant en toute discrétion.",
+        "action": {
+            "basic": ["Vous et votre adversaire défaussez la première carte de votre deck.", "Si la vôtre a plus en Force, récupérez-la en main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "158" : {
         "name": "Charcutier",
@@ -2657,15 +2771,17 @@
         "image": {
             "src": "holo-charcutier.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "Jambon, saucisson, terrine, rillettes, mais surtout un excellent boudin qui pue bien comme il faut.",
+        "action": {
+            "basic": ["Vous et votre adversaire défaussez la première carte de votre deck.", "Si la vôtre a plus en Force, récupérez-la en main."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "159" : {
         "name": "Gotaga",
@@ -2673,13 +2789,15 @@
         "image": {
             "src": "holo-gotaga.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Guest",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 3,
+        "desc": "Les journaux l'appellent \"French Monster\" ou \"Celui qui a pris une belle tête par Terracid\"",
+        "action": {
+            "basic": ["Défaussez un de vos Personnages en jeu.", "Votre adversaire défausse autant de cartes de son deck que sa valeur en Force."]
+        },
         "left": 0,
         "right": 0
     },
@@ -2689,14 +2807,17 @@
         "image": {
             "src": "holo-amixem.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Guest",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Grand entrepreneur et futur astronaute, mais a tendance à égarer les objets offerts par ses amis.",
+        "action": {
+            "basic": ["Piochez une carte."],
+            "combo_continu": "+2 en Force."
+        },
+        "left": 2,
         "right": 0
     },
     "161" : {
@@ -2705,15 +2826,17 @@
         "image": {
             "src": "holo-pirate-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 5,
+        "desc": "On raconte que son navire a coulé dans le sud du Pacifique (à cause du poids de l'or dans la cale).",
+        "action": {
+            "basic": ["Votre adversaire défausse jusqu'à ce qu'il ait autant de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "162" : {
         "name": "Pirate",
@@ -2721,15 +2844,17 @@
         "image": {
             "src": "holo-pirate-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 4,
+        "desc": "Il aime l'or, le sang, la bagarre, mais aussi l'odeur des croissants chauds de la boulangerie.",
+        "action": {
+            "basic": ["Votre adversaire défausse jusqu'à ce qu'il ait autant de cartes en main que vous."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "163" : {
         "name": "Mastu",
@@ -2737,15 +2862,18 @@
         "image": {
             "src": "holo-mastu.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Guest",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 1,
+        "power": 3,
+        "desc": "Drôle, musclé, chanteur, a-t-il un défaut ? Aucun, sauf son furoncle entre les fesses depuis 2014.",
+        "action": {
+            "basic": ["Scorez tous les Terrains en jeu."],
+            "combo": "Reprenez en main un Terrain de votre défausse."
+        },
+        "left": 2,
+        "right": 1
     },
     "164" : {
         "name": "G cramé",
@@ -2753,15 +2881,17 @@
         "image": {
             "src": "holo-g-crame.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Random",
         "drop": "UR",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"J'explorais les catacombes et puis j'ai cramé\"",
+        "action": {
+            "basic": ["Cherchez dans votre deck et choisissez 2 cartes que vous piochez.", "Mélangez ensuite votre deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "165" : {
         "name": "CT",
@@ -2769,15 +2899,17 @@
         "image": {
             "src": "holo-ct.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "Soldat d'élite reconnu, il perd cependant tous ses moyens quand un Russe crie dans son micro.",
+        "action": {
+            "basic" : ["Piochez une carte."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "166" : {
         "name": "Terro",
@@ -2785,15 +2917,17 @@
         "image": {
             "src": "holo-ct.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 4,
+        "desc": "\"Il faut que je maîtrise mon nova pomme d'amour comme je maîtrise ma vie.\"",
+        "action": {
+            "basic" : ["Piochez une carte."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "167" : {
         "name": "Joueur du grenier",
@@ -2804,11 +2938,14 @@
         "artist": "",
         "cat": "Guest",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "cost": 1,
+        "power": 3,
+        "desc": "Il a oeuvré toute sa vie contre l'addiction aux drogues chez les dévelippeur de jeux.",
+        "action": {
+            "basic": ["Défaussez un Personnage en jeu de votre adversaire d'une Force de 2 maximum et scorez un Terrain."],
+            "combo": "Votre adversaire défausse la carte du dessus de son deck."
+        },
+        "left": 1,
         "right": 0
     },
     "168" : {
@@ -2817,15 +2954,18 @@
         "image": {
             "src": "holo-seb.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Guest",
         "drop": "UR",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 2,
+        "power": 4,
+        "desc": "Autrefois Youtubeur émérite, Seb vit désormais dans la jungle au sein d'une famille de chimpanzés.",
+        "action": {
+            "basic": ["Piochez une carte."],
+            "combo_continu": "+2 en Force."
+        },
+        "left": 2,
+        "right": 1
     },
     "169" : {
         "name": "Wicromania",
@@ -2833,15 +2973,17 @@
         "image": {
             "src": "b-wicromania.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"C'est le tout dernier Call Of neuf sous blister ? Je peux vous le reprendre 2€, si vous voulez.",
+        "action": {
+            "basic": ["Annoncez un nombre, puis regardez la première carte de votre deck.", "Si elle a cette valeur de Force, mettez-la en jeu gratuitement.", "Sinon piochez-la"]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "170" : {
         "name": "Voyant",
@@ -2849,15 +2991,17 @@
         "image": {
             "src": "b-voyant.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 2,
+        "power": 3,
+        "desc": "Il a eu sa première vision avec une tranche de jambon de Bayonne, à l'âge de 9 ans.",
+        "action": {
+            "basic": ["Regardez les 3 premières cartes de votre deck.","Piochez-en-une, jouez-en une gratuitement et remettez la dernière sur le deck."]
+        },
         "left": 0,
-        "right": 0
+        "right": 3
     },
     "171" : {
         "name": "Pierre Rondin",
@@ -2865,14 +3009,17 @@
         "image": {
             "src": "b-pierre-rondin.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Laink",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "Il parait que Pinoche a embrassé Giselle sur la bouche près du vieux châtaigner",
+        "action": {
+            "basic": ["Doublez la Force de tous vos autres Personnages jusqu'à la fin de votre tour."],
+            "combo": "Scorez un Terrain."
+        },
+        "left": 1,
         "right": 0
     },
     "172" : {
@@ -2881,15 +3028,17 @@
         "image": {
             "src": "b-andre-rondin.webp"
         },
-        "artist": "",
+        "artist": "Jaycee",
         "cat": "Terracid",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Il a joué avec un vieil obus trouvé près de la rivière et depuis il est puni.",
+        "action": {
+            "basic": ["Doublez la Force de tous vos autres Personnages jusqu'à la fin de votre tour."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "173" : {
         "name": "Survivant",
@@ -2897,15 +3046,17 @@
         "image": {
             "src": "b-survivant-l.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Laink",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Pour survivre, il a dû faire des choses horribles, comme boire l'eau du robinet.",
+        "action": {
+            "basic": ["Si vous avez exactement 3 cartes en main, récupérez la carte du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "174" : {
         "name": "Survivant",
@@ -2913,15 +3064,17 @@
         "image": {
             "src": "b-survivant-t.webp"
         },
-        "artist": "",
+        "artist": "Yuriiick",
         "cat": "Terracid",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "\"Il me reste seulement 18 boîtes de conserve. Je ne tiendrai jamais la journée.\"",
+        "action": {
+            "basic": ["Si vous avez exactement 4 cartes en main, récupérez la carte du dessus de votre défausse."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "175" : {
         "name": "Jacques Flantier",
@@ -2929,15 +3082,17 @@
         "image": {
             "src": "a-jacques-flantier.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Laink",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 2,
+        "desc": "\"BRANCARDIER ! J'ai des douleurs dans la nuque, c'est très désagréable ! Et j'ai mal au bidou !\"",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 1 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 2
     },
     "176" : {
         "name": "Richard Flantier",
@@ -2945,15 +3100,17 @@
         "image": {
             "src": "a-richard-flantier.webp"
         },
-        "artist": "",
+        "artist": "Léonard Lam",
         "cat": "Terracid",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "cost": 1,
+        "power": 3,
+        "desc": "Héros de guerre légendaire (il n'a tiré aucune balle et a poussé quelqu'un pour survivre).",
+        "action": {
+            "basic": ["Défaussez un Personnage adverse en jeu d'une Force de 1 maximum."]
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "177" : {
         "name": "Jeanine",
@@ -2961,15 +3118,18 @@
         "image": {
             "src": "a-jeanine.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
+        "power": 1,
+        "desc": "Elle a tendance à râler pendant qu'elle bosse et à insulter copieusement Martine dans son dos.",
+        "action": {
+            "basic": ["Votre prochaine carte Personnage coûte 0 à mettre en jeu ce tour."],
+            "combo": "Reprenez en main la carte du dessus de votre défausse."
+        },
         "left": 0,
-        "right": 0
+        "right": 1
     },
     "178" : {
         "name": "Martine",
@@ -2977,14 +3137,17 @@
         "image": {
             "src": "a-martine.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "L",
         "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
+        "power": 1,
+        "desc": "\"Les gens sont des porcs. C'est fou ce qu'on peut trouver par terre de nos jours.\"",
+        "action": {
+            "basic": ["Votre prochaine carte Personnage coûte 0 à mettre en jeu ce tour."],
+            "combo": "Scorez un Terrain."
+        },
+        "left": 2,
         "right": 0
     },
     "179" : {
@@ -2993,15 +3156,18 @@
         "image": {
             "src": "o-laink.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Laink",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 3,
+        "power": 10,
+        "desc": "C'est ici que...",
+        "action": {
+            "continu": "Si vous scorez un Terrain pendant votre tour, défaussez ce Personnage.",
+            "combo-t": "Vos Personnages coûtent 0 à posez pour le tour."
+        },
+        "left": 3,
+        "right": 3
     },
     "180" : {
         "name": "Terracid",
@@ -3009,14 +3175,17 @@
         "image": {
             "src": "o-terracid.webp"
         },
-        "artist": "",
+        "artist": "Lhotus",
         "cat": "Terracid",
         "drop": "L",
-        "cost": 0,
-        "power": 0,
-        "desc": "",
-        "action": "",
-        "left": 0,
-        "right": 0
+        "cost": 3,
+        "power": 10,
+        "desc": "... tout a commencé.",
+        "action": {
+            "continu": "Si vous scorez un Terrain pendant votre tour, défaussez ce Personnage.",
+            "combo-l": "Vos Personnages coûtent 0 à posez pour le tour."
+        },
+        "left": 3,
+        "right": 3
     }
 }
